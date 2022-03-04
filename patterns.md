@@ -6,27 +6,27 @@ The **components** of a dashboard are the crucial visual elements of a dashboard
 
 This group captures the type of information shown in a dashboard. We found that information in dashboards ranges from the presentation of *raw data* to several levels of *abstractions* which simplify and reduce the amount of information shown. In other words, given a data set with multiple data elements (e.g., rows in a data table) and attributes (columns), dashboards can provide many different abstractions of this data set. 
 
-**Single value(s)** are specific data points in a data set, e.g., the most recent value in a time series. Showing an individual value (compared to the entire or a filtered data set) implies the importance of the single, e.g., most recent, or highest, value in a given context. 
+<img src="docs/assets/icons/data-simple.PNG" class="icon" /> **Single value(s)** are specific data points in a data set, e.g., the most recent value in a time series. Showing an individual value (compared to the entire or a filtered data set) implies the importance of the single, e.g., most recent, or highest, value in a given context. 
 
-**Datasets** offer a more complete presentation of data. This can include multiple data elements and attributes, time series, and detailed geographic information which all show raw data. In the case of time series, a dataset is often filtered to a time range of relevance, e.g., the *last 14 days*. Showing raw data implies lots of details but little "judgement" about which characteristics of this data set are important. Datasets are shown to provide an overview, support comparison of multiple data sets, and to encourage individual exploration and analysis. 
+<img src="docs/assets/icons/data-complex.PNG" class="icon" /> **Datasets** offer a more complete presentation of data. This can include multiple data elements and attributes, time series, and detailed geographic information which all show raw data. In the case of time series, a dataset is often filtered to a time range of relevance, e.g., the *last 14 days*. Showing raw data implies lots of details but little "judgement" about which characteristics of this data set are important. Datasets are shown to provide an overview, support comparison of multiple data sets, and to encourage individual exploration and analysis. 
     
-**Derived value(s)** include statistics such as means, values, trends and change deltas. Derived values provide a higher-level of abstraction of a data set, since they imply a specific interest in these derived values. For example, derived values can be Key Performance Indicators in a given context. In many cases, derived values have been calculated independently from the dashboard (e.g., incidence values per fixed population).
+<img src="docs/assets/icons/data-derived.PNG" class="icon" /> **Derived value(s)** include statistics such as means, values, trends and change deltas. Derived values provide a higher-level of abstraction of a data set, since they imply a specific interest in these derived values. For example, derived values can be Key Performance Indicators in a given context. In many cases, derived values have been calculated independently from the dashboard (e.g., incidence values per fixed population).
     
-**Thresholds** make an explicit judgment about a data point, e.g., indicating whether a situation is *good*, *bad*, or *neutral*, according to objective thresholds for subjective labels. Thresholds are one of the highest levels of abstraction found in dashboards, as thresholds can have specific semantic meaning and implications.
+<img src="docs/assets/icons/data-threshold.PNG" class="icon" /> **Thresholds** make an explicit judgment about a data point, e.g., indicating whether a situation is *good*, *bad*, or *neutral*, according to objective thresholds for subjective labels. Thresholds are one of the highest levels of abstraction found in dashboards, as thresholds can have specific semantic meaning and implications.
 
 ## 1.2 Meta Information
 
 This group captures additional information to provide context and explanation about the data. Sometimes this information is *implicitly* understood from the context the dashboard is used in, e.g., the current date can imply when data was last updated, or data released by a specific organization can indicate the source of the raw data.
 
-**Data source:** identifies where data comes from, potentially including links and explanations about how data were collected and analyzed, and which tools were used. May also provide direct access to the data (e.g., in embedded tables).
+<img src="docs/assets/icons/meta-source.png" class="icon" /> **Data source:** identifies where data comes from, potentially including links and explanations about how data were collected and analyzed, and which tools were used. May also provide direct access to the data (e.g., in embedded tables).
 
-**Disclaimer:** indicates specific assumptions and decisions in data processing and visualization, or gives context for data and how it is presented. For example, the EU COVID-19 variant dashboard outlines limitations in the data and explains why data may be missing/misleading, and Google's COVID-19 forecast for Japan explains where its predictions come from and what is/is not included in each statistic.
+<img src="docs/assets/icons/meta-disclaimer.PNG" class="icon" /> **Disclaimer:** indicates specific assumptions and decisions in data processing and visualization, or gives context for data and how it is presented. For example, the EU COVID-19 variant dashboard outlines limitations in the data and explains why data may be missing/misleading, and Google's COVID-19 forecast for Japan explains where its predictions come from and what is/is not included in each statistic.
 
-**Data description:** gives a high-level description of the data to explain what the dashboard is showing.
+<img src="docs/assets/icons/meta-label.PNG" class="icon" /> **Data description:** gives a high-level description of the data to explain what the dashboard is showing.
 
-**Update information:** indicates when the data was last updated, typically specifying a date and/or time.
+<img src="docs/assets/icons/meta-update.png" class="icon" /> **Update information:** indicates when the data was last updated, typically specifying a date and/or time.
 
-**Annotations:** extra graphical embellishments added by the dashboard author to highlight specific points, changes, or developments in the data.
+<img src="docs/assets/icons/meta-annotation.PNG" class="icon" /> **Annotations:** extra graphical embellishments added by the dashboard author to highlight specific points, changes, or developments in the data.
 
 ## 1.3 Visual Encoding
 
