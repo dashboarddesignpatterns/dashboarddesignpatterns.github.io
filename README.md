@@ -36,14 +36,14 @@ a background in visualization or interface design.
 
 ### Team
 
-[Benjamin Bach (main contact)](https://benjbach.net), University of Edinburgh
-Euan Freeman, University of Glasgow
-Alfie Abdul-Rahman, King's College London
-Cagatay Turkay, University of Warwick
-Saiful Khan, University of Oxford
-Phong H. Nguyen, Redsift Ltd.
-Yulei Fan, University of Oxford
-Min Chen, University of Oxford
+* [Benjamin Bach (main contact)](https://benjbach.net), University of Edinburgh
+* Euan Freeman, University of Glasgow
+* Alfie Abdul-Rahman, King's College London
+* Cagatay Turkay, University of Warwick
+* Saiful Khan, University of Oxford
+* Phong H. Nguyen, Redsift Ltd.
+* Yulei Fan, University of Oxford
+* Min Chen, University of Oxford
 
 
 
