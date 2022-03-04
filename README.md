@@ -1,5 +1,8 @@
 ## Dashboard Design Patterns
 
+This page lists [design patterns for dashboard design](patterns.html) collected to support the design and creative exploration of dashboard design. We run a dedicated [workshop](workshop.html) to help you applying and discussing design patterns in your work.
+
+
 Dashboards offer a curated lens through which people can view large
 and complex data sets at a glance. They combine visual
 representations and other graphical embellishments to provide layers
@@ -31,6 +34,18 @@ especially as dashboards are increasingly being designed for a wider
 non-expert audience by a wide group of designers who may not have
 a background in visualization or interface design.
 
-This page lists [design patterns for dashboard design](patterns.html) collected to support the design and creative exploration of dashboard design. We run a dedicated [workshop](workshop.html) to help you applying and discussing design patterns in your work.
+### Team
+
+[Benjamin Bach (main contact)](https://benjbach.net), University of Edinburgh
+Euan Freeman, University of Glasgow
+Alfie Abdul-Rahman, King's College London
+Cagatay Turkay, University of Warwick
+Saiful Khan, University of Oxford
+Phong H. Nguyen, Redsift Ltd.
+Yulei Fan, University of Oxford
+Min Chen, University of Oxford
+
+
+
 
 
