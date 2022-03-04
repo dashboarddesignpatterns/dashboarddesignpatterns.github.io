@@ -41,14 +41,14 @@ We have three general check-ins where we encourage everone to attend. In between
 * March 11 (2h) **Kickoff:**  
 * March 11-18: Asynchronous work 
 * March 18 (1h) **General check-in:**
-* March 11-18: Asynchronous work
+* March 18-15: Asynchronous work
 * March 25 (1h) **Debrief:**
 
-### Asynchrnous working
+### Asynchronous working
 
 To help you with your designs asynchronously, we provide three means of communication: 
-* A slack channel: 
-* A forum: 
+* A [slack channel](https://join.slack.com/t/slack-4wm6695/shared_invite/zt-14x7ju7f5-IkAXD47iBTVZUBNCS4CI~g) 
+* An [public online forum](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/discussions)
 * In-person drop-sessions staffed by one of o
   * Tuesday XX (XX)
   * Wednesday 4pm-5pm (Ben)
