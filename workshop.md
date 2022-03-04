@@ -23,7 +23,7 @@ If you have any specific questions, please get in touch with [Benjamin Bach](mai
 The workshop does not require any specific skills but instead some sort of project: 
 * Some data/topic that you want to design a dashboard for. This can be data you have full access to, or data you are planning to collect. It can include any data you are interested in, e.g., public data, data from your research, personal data, etc.
 * Some context for the dashboard, including: 
-  * *whom is this dashboard for? 
+  * *whom is this dashboard for?*
   * *What does the dashboard support people in?* 
   * *Where do people see (and potentially interact) with the dashboard?*
 * depending on the size of the project, a dedicated amount of time during the weeks to work on your designs to obtain feedback and discuss with others. We suggeast at least 2h apart from the check-in sessions (see below).
