@@ -1,6 +1,6 @@
 # 1. Component Design Patterns
 
-The *components* of a dashboard are the crucial visual elements of a dashboard, relating to the data and its presentation. We identified four groups of design patterns: **data information**, **meta information**, the **visual encoding** of the data, and the high level **interactions** supported by the dashboard. We disregard any visual components that purely serve as decoration or embellishment, e.g., illustrative pictures, dividers, borders, etc.
+The **components** of a dashboard are the crucial visual elements of a dashboard, relating to the data and its presentation. We identified four groups of design patterns: **data information**, **meta information**, the **visual encoding** of the data, and the high level **interactions** supported by the dashboard. We disregard any visual components that purely serve as decoration or embellishment, e.g., illustrative pictures, dividers, borders, etc.
 
 ## 1.1 Data Information
 
@@ -57,3 +57,57 @@ This group describes common interaction approaches found within the dashboards. 
 **Navigation** interactions enable designers to direct users through facets of information in a particular order. Interaction elements can be used to navigate between different dashboard components and layout structures (e.g., pages, tabs). Interaction techniques and elements such as *scrolling*, *navigation buttons*, or *tab links* can be used to create a journey for the viewers through which they explore the information. Navigation can be *constrained* and follow a particular sequence, or can be *unconstrained* to allow free navigation. 
 
 **Personalization:** interactions allow users to redefine and reconfigure the information shown within a dashboard. For example, users may be able to add new representations (e.g., by choosing a new data feature to be visualized), resize dashboard elements, or reorder the existing dashboard elements. Such interactions may lead to more specialized and bespoke dashboard configurations, where the viewers are more actively engaged with the information content after the dashboard is designed and deployed.
+
+# 2. Composition Design Patterns
+
+The **composition** of a dashboard determines how its individual components are combined on screen. Dashboards show multiple information elements and their structure and layout on page are meaningful decisions made by a designer. We identified three groups of composition pattern: the **layout** of components in a dashboard, the **structure** of contents across one or more dashboard pages, and the use of **color** and color schemes throughout a dashboard.
+
+## 2.1 Layout
+
+Layout patterns describe how the widgets are laid out and sometimes implicitly grouped together in a dashboard - i.e., the prominent layout decision used to group a potentially large set of visual components. We emphasize that none of these layout patterns are exclusive and combinations can be used. Note: when describing layout patterns, we define a *widget* as the smallest unit on screen.
+
+**Open Layouts:** widgets of different sizes and aspect ratios are laid out in an open way without apparent specific rules. Often these widgets are aligned at a grid following classical design guidelines. There is no strong semantic associated with the location and adjacency of widgets and each widget seems to have equal importance. Widgets can be arranged closely if they are related (e.g., first and second COVID-19 vaccine dose) or they have similar visual types for aesthetics reason (e.g., top rows are all gauges and bottom rows are all line charts). Tiled layouts invite reordering and adjustment of widgets by the user.
+
+**Stratified Layouts:** these emphasize a top-down ordering of widgets and their information. For example, dashboards may show general high-level information along the top, while showing more detailed information further down. A strata layout can be used to emphasize some information (e.g., further up) over other information (e.g., further down).
+    
+**Table Layouts:** these align widgets (or groups of widgets) into columns and rows, each with a specific semantic and inducing a repetition of information and visual encoding. Rows and columns can represent facets of the data set such as time, data elements, or any other grouping. Table layouts make it easy to retrieve and relate specific information in a multidimensional dataset. Usually, the visual content along a column uses the same visual encoding. Table layouts imply direct comparison and juxtaposition of information across widgets. 
+
+**Grouped Layouts:** these visibly group two or more widgets with a specific relation. For example, using diving lines, whitespace borders, or shaded background regions to emphasize grouping of related widgets. A dashboard with clear explicit grouping may help viewers observe the data more easily, especially for intended public audience.
+
+**Schematic Layouts:** these place widgets in a dashboard informed by some external property such as a physical layout or other types of schematic relationships (e.g., widgets placed on a map to represent geographic location of data points). Such dashboards can leverage a user's spatial/geographical/etc knowledge to support visual analytics tasks.
+
+## 2.2 Structure
+
+Whereas layout describes composition within an individual dashboard view, structure patterns describe how a dashboard organizes one or more of its views for presentation to the user. These patterns describe how dashboard content is shown on a single screen and which interactions, if necessary, are used to access additional information or views. While some consider it necessary for a dashboard to show content that fits on screen without the need for interaction, it may be necessary to deal with 'excess' content that overflows the available screen space. We consider structure as a deliberate design choice, not as a result of, e.g., responsive web layouts.
+
+**Flat** dashboards have a single view that should be fully visible on a given screen size. No interaction is needed to view all of the content, as all information fits on screen and is available at a glance.
+
+**Paginated** dashboards are composed of elements distributed across several pages, with one page shown on screen at a time; here, 'page' refers to a single composite view within a dashboard and does not necessarily mean, e.g., distinct web pages. There were many strategies for presenting an overview of available dashboard pages and allowing viewers to navigate between them, including:
+
+- **Tabs** structure dashboard views by category or theme. Through their titles, tabs inform the user about available content and supports navigation to the most relevant information.
+
+- **Links** provide dashboard navigation through visual elements (e.g., charts, titles, clickable text). We consider these separately from the link behaviors of tabs.
+
+- **Navigation buttons** allow users to move forwards or backwards through the pages of a dashboard in sequence. These may be used along with other navigation elements (e.g., tabs or links).
+
+- **Animated transitions** can be used to advance through dashboard pages automatically, like a slide show.
+
+**Overflow** designs allow a dashboard to exceed the available screen boundaries, so that additional content is revealed as the user scrolls. This offers an alternative to *Paginated* design, with all dashboard views available on a single page even if not all are visible at once.
+
+**Detail-on-demand** interactions allow dashboards to reduce the amount of information shown on screen at once, by revealing more details only when the user asks (for example, using tooltips or pop-ups).
+
+**Parameterized** dashboards allow users to control what content is currently shown. We found several approaches for providing dashboard parameters, including checkboxes, drop-down menus, lists and search fields for filtering data, sliders and pickers for selecting date ranges, or radio buttons and switches for changing the data. These typically allow users to choose which data is shown through the dashboard widgets. Parameterization can be used in combination with other structures, e.g., *Flat* or *Paginated* designs may offer search and filter capabilities.
+
+## 2.3 Color
+
+Color is an important visual variable in visualization and can be used for different purposes in dashboard design as well.
+
+**Distinct** color schemes use unique colors (or colour palettes) for different widgets or data types.
+
+**Shared** color schemes used a shared color palette across all dashboard components (e.g., re-using colours to conform with branding).
+
+**Data Encoding** color schemes use colour to encode categories or scales within the data.
+
+**Semantic** color schemes use color to indicate specific semantics about the data. This requires a mapping between data indicators and a real-life outcome with semantic connotations, e.g., traffic light schemes, green/red for positive/negative sentiment, etc.
+
+**Emotive** color schemes can be a powerful means to add aesthetic strength and develop an emotive response in viewers.
