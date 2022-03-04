@@ -31,20 +31,29 @@ The workshop does not require any specific skills but instead some sort of proje
 
 The workshop is designed for two weeks in March 2022. The workshop has 3 distinct stages, outlined below.
 
-* March 11 (2h): Kickoff 
-* March 
+### Check-ins
 
+We have three general check-ins where we encourage everone to attend. In between these general check-ins, you can work on your dashboard designs at your own pace and check in with us on demand (see below).
 
+* March 11 (2h) **Kickoff:**  
+* March 11-18: Asynchronous work 
+* March 18 (1h) **General check-in:**
+* March 11-18: Asynchronous work
+* March 25 (1h) **Debrief:**
 
+### Asynchrnous working
 
+To help you with your designs asynchronously, we provide three means of communication: 
+* A slack channel: 
+* A forum: 
+* In-person drop-sessions staffed by one of o
+  * Tuesday XX (XX)
+  * Wednesday 4pm-5pm (Ben)
+  * Thursday XX (XXX)
 
+## Sign up
 
+The workshop is limited to 12 people to guarantee proper discussions and engagement. There are no fees attached to your participation.
 
-
-
-
-
-
-
-
+To sign up, please fill this short questionnaire and tell us about yourself (2min): [https://forms.gle/dc6y9fEbzV2CAhqE6](https://forms.gle/dc6y9fEbzV2CAhqE6).
 
