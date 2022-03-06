@@ -6,16 +6,16 @@ If you have any specific questions, please get in touch with [Benjamin Bach](mai
 ## Goals 
 
 **What this workshop will help you with:**
+* Learn about design guidelines for dashboard design.
 * Design your own dashboard(s) in the form of visual mockups and sketches.
 * Understand design decisions and tradeoffs.
 * Make deliberate design decisions and reflect on these choices.
-* Use state-of-the-art tools for mockups and design sketches.
+* Use state-of-the-art tools for mockups and design sketches (e.g., Figma, Miro).
 * Discuss your designs with peers and learn from others. 
 
-**What this workshop will *not* support:**
+**What this workshop will *not* provide:**
 * An introduction to Tableau, Power BI, or similar tools.
-* A workshop on programming visualizations, e.g., using d3.js. 
-* A hands-on course on designing a dashboard for a given problem.
+* A workshop on programming visualizations, e.g., using d3.js or other libraries. 
 * An opportunity to obtain a certificate in dashboard design.
 
 ## Prerequisites
