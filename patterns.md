@@ -14,6 +14,11 @@ This group captures the type of information shown in a dashboard. We found that 
     
 <img src="docs/assets/icons/data-threshold.PNG" height="30px" /> **Thresholds** make an explicit judgment about a data point, e.g., indicating whether a situation is *good*, *bad*, or *neutral*, according to objective thresholds for subjective labels. Thresholds are one of the highest levels of abstraction found in dashboards, as thresholds can have specific semantic meaning and implications.
 
+### Data Information Examples
+
+<img src="docs/assets/figures/DataInformation.png" width="100%" />
+<p align="center">Examples of <strong>Data Information</strong> in dashboards.</p>
+
 ## 1.2 Meta Information
 
 This group captures additional information to provide context and explanation about the data. Sometimes this information is *implicitly* understood from the context the dashboard is used in, e.g., the current date can imply when data was last updated, or data released by a specific organization can indicate the source of the raw data.
@@ -27,6 +32,11 @@ This group captures additional information to provide context and explanation ab
 <img src="docs/assets/icons/meta-update.png" height="30px" /> **Update information:** indicates when the data was last updated, typically specifying a date and/or time.
 
 <img src="docs/assets/icons/meta-annotation.PNG" height="30px" /> **Annotations:** extra graphical embellishments added by the dashboard author to highlight specific points, changes, or developments in the data.
+
+### Meta Information Examples
+
+<img src="docs/assets/figures/MetaInformation.png" width="100%" />
+<p align="center">Examples of <strong>Meta Information</strong> in dashboards.</p>
 
 ## 1.3 Visual Encoding
 
