@@ -121,3 +121,8 @@ Color is an important visual variable in visualization and can be used for diffe
 **Semantic** color schemes use color to indicate specific semantics about the data. This requires a mapping between data indicators and a real-life outcome with semantic connotations, e.g., traffic light schemes, green/red for positive/negative sentiment, etc.
 
 **Emotive** color schemes can be a powerful means to add aesthetic strength and develop an emotive response in viewers.
+
+### Color Examples
+
+<img src="docs/assets/figures/Colour.png" width="100%" />
+<p align="center">Examples of <strong>Color</strong> in dashboards.</p>
