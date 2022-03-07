@@ -36,13 +36,13 @@ The workshop runs during two weeks in March 2022. The workshop has 3 distinct st
 
 We have three general check-ins where we encourage everone to attend. In between these general check-ins, you can work on your dashboard designs at your own pace and check in with us on demand (see below).
 
-* **March 14 (2h) Kickoff:**  This session will
+* **March 15 (Tue), 9am-12pm Kickoff:**  This session will
   * Introduce the workshop and organizers.
   * Introduce the the [dashboard design patterns](patterns.html).
   * Run two activities to help you kickstart your dashboard design process.
   * Introduce the means used for asynchoronous discussion. 
-* **March 21: General Check-in**
-* **March 25: Debrief**
+* **March 21 (Mon) 10-11am: General Check-in**
+* **March 25 (Fri) 3-4pm: Debrief**
 
 ### Asynchronous working
 
