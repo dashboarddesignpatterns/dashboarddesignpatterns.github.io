@@ -2,6 +2,8 @@
 
 The **components** of a dashboard are the crucial visual elements of a dashboard, relating to the data and its presentation. We identified four groups of design patterns: **data information**, **meta information**, the **visual encoding** of the data, and the high level **interactions** supported by the dashboard. We disregard any visual components that purely serve as decoration or embellishment, e.g., illustrative pictures, dividers, borders, etc.
 
+---
+
 ## 1.1 Data Information
 
 This group captures the type of information shown in a dashboard. We found that information in dashboards ranges from the presentation of *raw data* to several levels of *abstractions* which simplify and reduce the amount of information shown. In other words, given a data set with multiple data elements (e.g., rows in a data table) and attributes (columns), dashboards can provide many different abstractions of this data set. 
@@ -18,6 +20,8 @@ This group captures the type of information shown in a dashboard. We found that 
 
 <img src="docs/assets/figures/DataInformation.png" width="100%" />
 <p align="center">Examples of <strong>Data Information</strong> in dashboards.</p>
+
+---
 
 ## 1.2 Meta Information
 
@@ -37,6 +41,8 @@ This group captures additional information to provide context and explanation ab
 
 <img src="docs/assets/figures/MetaInformation.png" width="100%" />
 <p align="center">Examples of <strong>Meta Information</strong> in dashboards.</p>
+
+---
 
 ## 1.3 Visual Encoding
 
@@ -58,6 +64,8 @@ This group describes common solutions for presenting data information in dashboa
 
 <img src="docs/assets/icons/data-list.png" height="30px" /> **Text Lists:** lists of textual information, e.g.,like tickers that show non-quantitative information.
 
+---
+
 ## 1.4 Interactions
 
 This group describes common interaction approaches found within the dashboards. Interaction can exist through interactive data, user interface elements, and window-level interactions (e.g., scrolling). The patterns we highlight in this group refer to common roles that interaction could play in dashboard use, expressed through specific user interface components. These are defined broadly, to identify general usage patterns and how they can be implemented through dashboard designs.
@@ -68,9 +76,13 @@ This group describes common interaction approaches found within the dashboards. 
 
 <img src="docs/assets/icons/int-personalization.PNG" height="30px" /> **Personalization:** interactions allow users to redefine and reconfigure the information shown within a dashboard. For example, users may be able to add new representations (e.g., by choosing a new data feature to be visualized), resize dashboard elements, or reorder the existing dashboard elements. Such interactions may lead to more specialized and bespoke dashboard configurations, where the viewers are more actively engaged with the information content after the dashboard is designed and deployed.
 
+---
+
 # 2. Composition Design Patterns
 
 The **composition** of a dashboard determines how its individual components are combined on screen. Dashboards show multiple information elements and their structure and layout on page are meaningful decisions made by a designer. We identified three groups of composition pattern: the **layout** of components in a dashboard, the **structure** of contents across one or more dashboard pages, and the use of **color** and color schemes throughout a dashboard.
+
+---
 
 ## 2.1 Layout
 
@@ -85,6 +97,8 @@ Layout patterns describe how the widgets are laid out and sometimes implicitly g
 <img src="docs/assets/icons/layout-grouped.png" height="30px" /> **Grouped Layouts:** these visibly group two or more widgets with a specific relation. For example, using diving lines, whitespace borders, or shaded background regions to emphasize grouping of related widgets. A dashboard with clear explicit grouping may help viewers observe the data more easily, especially for intended public audience.
 
 <img src="docs/assets/icons/layout-schematic.png" height="30px" /> **Schematic Layouts:** these place widgets in a dashboard informed by some external property such as a physical layout or other types of schematic relationships (e.g., widgets placed on a map to represent geographic location of data points). Such dashboards can leverage a user's spatial/geographical/etc knowledge to support visual analytics tasks.
+
+---
 
 ## 2.2 Structure
 
@@ -107,6 +121,8 @@ Whereas layout describes composition within an individual dashboard view, struct
 <img src="docs/assets/icons/pagination-tooltip.png" height="30px" /> **Detail-on-demand** interactions allow dashboards to reduce the amount of information shown on screen at once, by revealing more details only when the user asks (for example, using tooltips or pop-ups).
 
 <img src="docs/assets/icons/pagination-parameterization.png" height="30px" /> **Parameterized** dashboards allow users to control what content is currently shown. We found several approaches for providing dashboard parameters, including checkboxes, drop-down menus, lists and search fields for filtering data, sliders and pickers for selecting date ranges, or radio buttons and switches for changing the data. These typically allow users to choose which data is shown through the dashboard widgets. Parameterization can be used in combination with other structures, e.g., *Flat* or *Paginated* designs may offer search and filter capabilities.
+
+---
 
 ## 2.3 Color
 
