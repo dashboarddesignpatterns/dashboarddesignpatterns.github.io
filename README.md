@@ -2,6 +2,7 @@
 
 This page lists [design patterns for dashboard design](patterns.html) collected to support the design and creative exploration of dashboard design. We run a dedicated [workshop](workshop.html) to help you applying and discussing design patterns in your work.
 
+![](figures/teaser.png)
 
 Dashboards offer a curated lens through which people can view large
 and complex data sets at a glance. They combine visual
@@ -17,10 +18,8 @@ complemented by dashboards for public health or political elections,
 designed for a more general audience and disseminated through news
 media or dedicated dashboard and tracker websites.
 
-here are several high-level guidelines on dashboard design, in-
-cluding advice about visual perception, reducing information load,
-the use of interaction, and visualization literacy. De-
-spite this, we know little about effective and applicable dashboard
+here are several high-level guidelines on dashboard design, including advice about visual perception, reducing information load,
+the use of interaction, and visualization literacy. Despite this, we know little about effective and applicable dashboard
 design, and about how to support rapid dashboard design. Dashboard
 design is admittedly not straightforward: designers have access to
 numerous data streams which they can process, abstract or simplify
@@ -29,9 +28,7 @@ their disposal; and they can structure and present these visualizations
 in numerous ways, to take advantage of the large screens on which
 they are viewed (vs. individual plots that make more economic use
 of space). Such an number of choice can be overwhelming, so there
-is a timely need for guidance about effective dashboard design—
-especially as dashboards are increasingly being designed for a wider
-non-expert audience by a wide group of designers who may not have
+is a timely need for guidance about effective dashboard design---especially as dashboards are increasingly being designed for a wider non-expert audience by a wide group of designers who may not have
 a background in visualization or interface design.
 
 ### Team
