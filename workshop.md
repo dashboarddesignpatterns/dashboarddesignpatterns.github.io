@@ -32,7 +32,7 @@ The workshop does not require any specific skills, but does require you have an 
 
 The workshop runs during two weeks in March 2022. The workshop has 3 distinct stages, outlined below.
 
-### Check-ins
+### Synchronous sessions
 
 We have three general check-ins where we encourage everone to attend. In between these general check-ins, you can work on your dashboard designs at your own pace and check in with us on demand (see below).
 
@@ -43,6 +43,8 @@ We have three general check-ins where we encourage everone to attend. In between
   * Introduce the means used for asynchoronous discussion. 
 * **March 21 (Mon) 10-11am: General Check-in**
 * **March 25 (Fri) 3-4pm: Debrief**
+
+![](_layouts/schedule.png)
 
 ### Asynchronous working
 
