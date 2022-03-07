@@ -61,3 +61,8 @@ To help you with your designs asynchronously, we provide three means of communic
 The workshop is limited to 12 people so that we can guarantee useful discussions and a good level of engagement. There are no fees attached to your participation.
 
 To sign up, please complete this short questionnaire and tell us about yourself (2min): [https://forms.gle/dc6y9fEbzV2CAhqE6](https://forms.gle/dc6y9fEbzV2CAhqE6).
+
+
+## FAQ
+
+_<coming as questions arrive>_
