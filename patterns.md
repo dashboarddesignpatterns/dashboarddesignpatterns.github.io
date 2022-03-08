@@ -64,6 +64,11 @@ This group describes common solutions for presenting data information in dashboa
 
 <img src="docs/assets/icons/data-list.png" height="30px" /> **Text Lists:** lists of textual information, e.g.,like tickers that show non-quantitative information.
 
+### Visual Encoding Examples
+
+<img src="docs/assets/figures/VisualEncoding.png" width="100%" />
+<p align="center">Examples of <strong>Visual Encoding</strong> in dashboards.</p>
+
 ---
 
 ## 1.4 Interactions
