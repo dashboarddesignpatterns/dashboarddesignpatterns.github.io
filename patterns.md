@@ -103,6 +103,11 @@ Layout patterns describe how the widgets are laid out and sometimes implicitly g
 
 <img src="docs/assets/icons/layout-schematic.png" height="30px" /> **Schematic Layouts:** these place widgets in a dashboard informed by some external property such as a physical layout or other types of schematic relationships (e.g., widgets placed on a map to represent geographic location of data points). Such dashboards can leverage a user's spatial/geographical/etc knowledge to support visual analytics tasks.
 
+### Layout Examples
+
+<img src="docs/assets/figures/Layout.png" width="100%" />
+<p align="center">Examples of <strong>Layout</strong> in dashboards.</p>
+
 ---
 
 ## 2.2 Structure
