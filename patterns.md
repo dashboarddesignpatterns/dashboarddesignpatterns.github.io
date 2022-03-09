@@ -81,6 +81,11 @@ This group describes common interaction approaches found within the dashboards. 
 
 <img src="docs/assets/icons/int-personalization.PNG" height="30px" /> **Personalization:** interactions allow users to redefine and reconfigure the information shown within a dashboard. For example, users may be able to add new representations (e.g., by choosing a new data feature to be visualized), resize dashboard elements, or reorder the existing dashboard elements. Such interactions may lead to more specialized and bespoke dashboard configurations, where the viewers are more actively engaged with the information content after the dashboard is designed and deployed.
 
+### Interaction Examples
+
+<img src="docs/assets/figures/Interaction.png" width="100%" />
+<p align="center">Examples of <strong>Interactions</strong> in dashboards.</p>
+
 ---
 
 # 2. Composition Design Patterns
