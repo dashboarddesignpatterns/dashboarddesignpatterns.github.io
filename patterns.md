@@ -11,7 +11,9 @@ This group captures the type of information shown in a dashboard. We found that 
 <img src="docs/assets/icons/data-simple.PNG" height="30px" /> **Single value(s)** are specific data points in a data set, e.g., the most recent value in a time series. Showing an individual value (compared to the entire or a filtered data set) implies the importance of the single, e.g., most recent, or highest, value in a given context. 
 
 <img src="docs/assets/icons/data-complex.PNG" height="30px" /> **Datasets** offer a more complete presentation of data. This can include multiple data elements and attributes, time series, and detailed geographic information which all show raw data. In the case of time series, a dataset is often filtered to a time range of relevance, e.g., the *last 14 days*. Showing raw data implies lots of details but little "judgement" about which characteristics of this data set are important. Datasets are shown to provide an overview, support comparison of multiple data sets, and to encourage individual exploration and analysis. 
-    
+
+**Aggregated values** ...
+
 <img src="docs/assets/icons/data-derived.PNG" height="30px" /> **Derived value(s)** include statistics such as means, values, trends and change deltas. Derived values provide a higher-level of abstraction of a data set, since they imply a specific interest in these derived values. For example, derived values can be Key Performance Indicators in a given context. In many cases, derived values have been calculated independently from the dashboard (e.g., incidence values per fixed population).
     
 <img src="docs/assets/icons/data-threshold.PNG" height="30px" /> **Thresholds** make an explicit judgment about a data point, e.g., indicating whether a situation is *good*, *bad*, or *neutral*, according to objective thresholds for subjective labels. Thresholds are one of the highest levels of abstraction found in dashboards, as thresholds can have specific semantic meaning and implications.
