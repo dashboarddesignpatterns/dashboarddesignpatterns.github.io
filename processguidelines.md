@@ -1,12 +1,55 @@
 # Dashboard Design Guidelines
+# Process & Guidelines
 
 ## High-level Design Guidelines
 
 1. Balance data + space (cost) while increasing information
 1. Avoid redundancy of information
 1. Show information, rather than data
-				
-## Specific Design Guidelines
+	
+	
+
+## Stage 0: Context
+
+Define the context in which your dashboard is being used in. This includesL 
+
+* What is your **audience**? What do they know about your data and visualization? 
+* What is the **setting** in which they engage with the dashboard? 
+  * Is this a computer screen? A mobile screen? A webite?  
+  * Can they interaction? 
+  * How much time do they have to view/interact with the dashboard? 
+  * How frequently will they consult it? 
+* What are the **tasks and decisions** your audience wants to perform?
+  * what decisions do they want to make with the data? 
+  * What information do they need?
+  * Do they simply want to look up values? Do they want to compare? Do they want to analyze?   
+* What **information** do they need to fulfill these tasks / make these decisions?
+  * do they need to see all of the data? 
+  * what data is most relevant?   
+
+
+## Stage 1: Data & Information
+
+Design Patterns: [Data Information](patterns.html#11-data-information)
+
+Define the data information from the dataset important for the user in a given task. This may involve calculating trends, choos-
+ing specific temporal intervals, etc. Many of these decision will require data processing and abstraction 
+
+
+
+## Stage 2: Structure
+
+
+## Stage 3: Visual Encoding
+
+
+## Stage 4: Page Layout
+
+
+## Stage 5: Interactivity 
+
+	
+	
 
 1. Where space allows, **provide redundant and complementary views**
 (visual encodings) and levels of abstraction (data information) for
