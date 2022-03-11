@@ -84,7 +84,10 @@ Infographic dashboards are often used to represent static datasets; e.g., presen
 Common design patterns:
 
 - <img src="docs/assets/icons/pagination-animation.png" height="30px" /> **Animated** page transitions
-- <img src="docs/assets/icons/data-visualization.png" height="30px" /> **Visualizations**
+- <img src="docs/assets/icons/data-pictogram.png" height="30px" /> **Pictograms**
+- <img src="docs/assets/icons/data-signature.png" height="30px" /> **Signature Charts**
+- <img src="docs/assets/icons/data-arrows.png" height="30px" /> **Trend Arrows**
+- <img src="docs/assets/icons/data-number.png" height="30px" /> **Numbers**
 
 Animated slideshow dashboards are uncommon, but merit discussion as a style. These dashboards use automated animations to move through its pages, rather than explicit user interaction. The drawback of timing the slideshow can be overcome through simple *navigation buttons*; however, taking away the ability to navigate compels users to look at and think about the data. We believe animated slideshow dashboards can be useful in public displays where interaction is not possible and to prompt reflection.
 
@@ -158,4 +161,4 @@ Many dashboards list a multitude of charts on a single website, with **overflow*
 ### Repository Dashboard Examples
 
 <img src="docs/assets/dashboards/dashboards-chartwebsite.png" width="100%" />
-<p align="center">Two examples of a <strong>Repository Dashboard</strong>.</p>
+<p align="center">Two examples of a <strong>Repository Dashboard</strong>, which act like landing pages for large collections of data.</p>
