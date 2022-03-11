@@ -1,6 +1,6 @@
 # Design Tradeoffs
 
-![](docs/assets/icons/tradeoffs.png)
+![](docs/assets/figures/tradeoffs2.png)
 
 
 Every design process and design problem is unique in that several
