@@ -68,10 +68,4 @@ This leads us to the following conclusion
 * **Minimizing one parameter, requires increasing one or more of the other parameters**. 
 
 
-## Necogiating Tradeoffs
-
-How can we necogiate tradeoffs between each of the parameters to minimize our stress? 
-
- 
-
 
