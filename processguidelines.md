@@ -1,5 +1,4 @@
-# Dashboard Design Guidelines
-# Process & Guidelines
+# Design Process and Guidelines
 
 ## High-level Design Guidelines
 
