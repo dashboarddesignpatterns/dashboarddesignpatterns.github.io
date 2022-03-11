@@ -21,6 +21,8 @@ We see a distinction between **curated dashboards** and **data collection dashbo
 
 <!-- <img src="docs/assets/figures/type-classic.PNG" height="60px" /> -->
 
+Common design patterns:
+
 - <img src="docs/assets/icons/pagination-screenfit.png" height="30px" /> **Flat** structure
 - <img src="docs/assets/icons/data-signature.png" height="30px" /> **Signature Charts**
 - <img src="docs/assets/icons/data-arrows.png" height="30px" /> **Trend Arrows**
@@ -32,6 +34,8 @@ By static dashboard, we refer to the traditional notion of a dashboard as a *non
 ## 2.2 Magazine Dashboards
 
 <!-- <img src="docs/assets/figures/type-magazine.PNG" height="60px" /> -->
+
+Common design patterns:
 
 - <img src="docs/assets/icons/data-visualization.png" height="30px" /> **Visualizations**
 - <img src="docs/assets/icons/data-table.png" height="30px" /> **Tables**
@@ -48,6 +52,8 @@ As an example, The Economist Covid-19 tracker (shown below) provides viewers wit
 
 <!-- <img src="docs/assets/figures/type-infographic.PNG" height="60px" /> -->
 
+Common design patterns:
+
 - <img src="docs/assets/icons/data-pictogram.png" height="30px" /> **Pictograms**
 - <img src="docs/assets/icons/layout-open.png" height="30px" /> **Open** layout
 - <img src="docs/assets/icons/pagination-scroll.png" height="30px" /> **Overflow** page structure
@@ -62,6 +68,8 @@ Infographic dashboards are often used to represent static datasets; e.g., presen
 
 <!-- <img src="docs/assets/figures/type-slideshow.PNG" height="60px" /> -->
 
+Common design patterns:
+
 - <img src="docs/assets/icons/pagination-animation.png" height="30px" /> **Animated** page transitions
 - <img src="docs/assets/icons/data-visualization.png" height="30px" /> **Visualizations**
 
@@ -72,6 +80,8 @@ Animated slideshow dashboards are uncommon, but merit discussion as a style. The
 ## 2.5 Embedded Mini Dashboards
 
 <!-- <img src="docs/assets/figures/type-mini.PNG" height="60px" /> -->
+
+Common design patterns:
 
 - <img src="docs/assets/icons/pagination-screenfit.png" height="30px" /> **Flat** structure
 - <img src="docs/assets/icons/pagination-parameterization.png" height="30px" /> **Parameterized** page structure
@@ -89,6 +99,8 @@ Dashboards can be embedded into other applications such as news websites. These 
 
 <!-- <img src="docs/assets/figures/type-analytic.PNG" height="60px" /> -->
 
+Common design patterns:
+
 - <img src="docs/assets/icons/data-visualization.png" height="30px" /> **Visualizations**
 - <img src="docs/assets/icons/data-table.png" height="30px" /> **Tables**
 - <img src="docs/assets/icons/int-exploration.PNG" height="30px" /> **Exploration** interactions
@@ -104,6 +116,8 @@ This dashboard type is what Stephen Few would call a *Faceted Analytic Display*.
 ## 3.2 Repository Dashboards
 
 <!-- <img src="docs/assets/figures/type-repository.PNG" height="60px" /> -->
+
+Common design patterns:
 
 - <img src="docs/assets/icons/pagination-scroll.png" height="30px" /> **Overflow** page structure
 - <img src="docs/assets/icons/pagination-tabs.png" height="30px" /> **Tabbed** page structures
