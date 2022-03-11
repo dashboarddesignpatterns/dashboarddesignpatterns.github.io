@@ -36,6 +36,8 @@ By static dashboard, we refer to the traditional notion of a dashboard as a *non
 <img src="docs/assets/dashboards/StaticDashboard.png" width="100%" />
 <p align="center">Example of a <strong>Static Dashboard</strong>.</p>
 
+---
+
 ## 2.2 Magazine Dashboards
 
 <!-- <img src="docs/assets/figures/type-magazine.PNG" height="60px" /> -->
@@ -57,6 +59,8 @@ As an example, The Economist Covid-19 tracker (shown below) provides viewers wit
 <img src="docs/assets/dashboards/dashboard-journal.png" width="100%" />
 <p align="center">Example of a <strong>Magazine Dashboard</strong>; note this appears to viewers as one continuous page.</p>
 
+---
+
 ## 2.3 Infographic Dashboards
 
 <!-- <img src="docs/assets/figures/type-infographic.PNG" height="60px" /> -->
@@ -77,6 +81,8 @@ Infographic dashboards are often used to represent static datasets; e.g., presen
 <img src="docs/assets/dashboards/DB117.jpg" width="100%" />
 <p align="center">Example of an <strong>Infographic Dashboard</strong>.</p>
 
+---
+
 ## 2.4 Slideshow Dashboard
 
 <!-- <img src="docs/assets/figures/type-slideshow.PNG" height="60px" /> -->
@@ -95,6 +101,8 @@ Animated slideshow dashboards are uncommon, but merit discussion as a style. The
 
 <img src="docs/assets/dashboards/SlideshowDashboard.png" width="100%" />
 <p align="center">Example of an animated <strong>Slideshow Dashboard</strong>, which has 8&nbsp;seconds between each slide.</p>
+
+---
 
 ## 2.5 Embedded Mini Dashboards
 
@@ -139,6 +147,8 @@ This dashboard type is what Stephen Few would call a *Faceted Analytic Display*.
 
 <img src="docs/assets/dashboards/AnalyticDashboard.png" width="100%" />
 <p align="center">Example of an <strong>Analytic Dashboard</strong>.</p>
+
+---
 
 ## 3.2 Repository Dashboards
 
