@@ -1,5 +1,8 @@
 # Design Tradeoffs
 
+![](docs/assets/icons/tradeoffs.png)
+
+
 Every design process and design problem is unique in that several
 parameters must be considered: users, tasks, contexts, devices, etc.
 Design tradeoffs are inevitable when no solution is optimal, i.e.,
