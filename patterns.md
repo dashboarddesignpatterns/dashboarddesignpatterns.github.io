@@ -122,18 +122,17 @@ Dashboards can only show a certain amount of information on screen at a single t
 
 <img src="docs/assets/icons/pagination-animation.png" height="30px" /> **Multiple page** dashboards are composed of elements distributed across several pages, with one page shown on screen at a time; here, 'page' refers to a single composite view within a dashboard and does not necessarily mean, e.g., distinct web pages. There were many strategies for presenting an overview of available dashboard pages and allowing viewers to navigate between them, including *tabs*, *navigation buttons* and *links*.
 
-
 ---
-<!--
-## 2.1 Layout
+
+## 2.2 Layout
 
 Layout patterns describe how the widgets are laid out and sometimes implicitly grouped together in a dashboard - i.e., the prominent layout decision used to group a potentially large set of visual components. We emphasize that none of these layout patterns are exclusive and combinations can be used. Note: when describing layout patterns, we define a *widget* as the smallest unit on screen.
 
 <img src="docs/assets/icons/layout-open.png" height="30px" /> **Open Layouts:** widgets of different sizes and aspect ratios are laid out in an open way without apparent specific rules. Often these widgets are aligned at a grid following classical design guidelines. There is no strong semantic associated with the location and adjacency of widgets and each widget seems to have equal importance. Widgets can be arranged closely if they are related (e.g., first and second COVID-19 vaccine dose) or they have similar visual types for aesthetics reason (e.g., top rows are all gauges and bottom rows are all line charts). Tiled layouts invite reordering and adjustment of widgets by the user.
 
-<img src="docs/assets/icons/layout-strata.png" height="30px" /> **Stratified Layouts:** these emphasize a top-down ordering of widgets and their information. For example, dashboards may show general high-level information along the top, while showing more detailed information further down. A strata layout can be used to emphasize some information (e.g., further up) over other information (e.g., further down).
-    
 <img src="docs/assets/icons/layout-grid.png" height="30px" /> **Table Layouts:** these align widgets (or groups of widgets) into columns and rows, each with a specific semantic and inducing a repetition of information and visual encoding. Rows and columns can represent facets of the data set such as time, data elements, or any other grouping. Table layouts make it easy to retrieve and relate specific information in a multidimensional dataset. Usually, the visual content along a column uses the same visual encoding. Table layouts imply direct comparison and juxtaposition of information across widgets. 
+
+<img src="docs/assets/icons/layout-strata.png" height="30px" /> **Stratified Layouts:** these emphasize a top-down ordering of widgets and their information. For example, dashboards may show general high-level information along the top, while showing more detailed information further down. A strata layout can be used to emphasize some information (e.g., further up) over other information (e.g., further down).
 
 <img src="docs/assets/icons/layout-grouped.png" height="30px" /> **Grouped Layouts:** these visibly group two or more widgets with a specific relation. For example, using diving lines, whitespace borders, or shaded background regions to emphasize grouping of related widgets. A dashboard with clear explicit grouping may help viewers observe the data more easily, especially for intended public audience.
 
@@ -146,13 +145,13 @@ Layout patterns describe how the widgets are laid out and sometimes implicitly g
 
 ---
 
+<!--
 ## 2.2 Structure
 
 Whereas layout describes composition within an individual dashboard view, structure patterns describe how a dashboard organizes one or more of its views for presentation to the user. These patterns describe how dashboard content is shown on-screen and which interactions, if necessary, are used to access additional information or views. While some consider it necessary for a dashboard to show content that fits on a single screen without the need for interaction, it may be necessary to deal with 'excess' content that overflows the available screen space. We consider structure as a deliberate design choice, not as a result of, e.g., responsive web layouts.
 
--->
-
 ---
+-->
 
 ## 2.3 Color
 
