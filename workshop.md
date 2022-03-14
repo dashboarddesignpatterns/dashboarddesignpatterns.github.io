@@ -41,10 +41,12 @@ We have three general check-ins where we encourage everone to attend. In between
   * Introduce the the [dashboard design patterns](patterns.html).
   * Run two activities to help you kickstart your dashboard design process.
   * Introduce the means used for asynchoronous discussion. 
-* **March 21 (Mon) 10-11am: General Check-in**
+* March 17 (Thu), 1-2pm: Drop-in session
+* March 18 (Fri), 1-2pm: Drop-in session
+* March 21 (Mon) 10-11am: Drop-in session
+* March 23 (Wed), 1-2pm: Drop-in session
 * **March 25 (Fri) 3-4pm: Debrief**
 
-![](_layouts/schedule.png)
 
 ### Asynchronous working
 
