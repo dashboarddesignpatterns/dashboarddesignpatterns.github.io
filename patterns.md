@@ -60,7 +60,7 @@ This group describes common solutions for presenting data information in dashboa
     
 <img src="docs/assets/icons/data-signature.png" height="30px" /> **Signature Charts:** small and concise visualizations without axis descriptions, labels, or tickmarks. The idea is to give a quick understanding of a trend, akin to sparklines, rather than allowing the reading of precise values.
 
-<img src="docs/assets/icons/data-visualization.png" height="30px" /> **Visualizations:** detailed visualizations with sufficient details to read precise values (e.g., axes, ticks, values, etc).
+<img src="docs/assets/icons/data-visualization.png" height="30px" /> **Detailed Charts:** detailed visualizations with sufficient details to read and understand precise values (e.g., axes, ticks, values, etc).
     
 <img src="docs/assets/icons/data-table.png" height="30px" /> **Tables:** these show raw data values in a tabular format. The most simple form of a table is a simple key-value list, but tables can show several columns and may include *signature charts* and/or *trend-arrows*. Tables do not need to contain numerical values, but can also include information through color/darkness (e.g., heatmaps).
 
@@ -106,7 +106,7 @@ This group describes common interaction approaches found within the dashboards. 
 
 # 2. Composition Design Patterns
 
-The **composition** of a dashboard determines how its individual components are combined on screen. Dashboards show multiple information elements and their structure and layout on page are meaningful decisions made by a designer. We identified several groups of composition pattern: the use of available **screenspace** to represent information (including strategies for reducing the amount of information shown at once), the **layout** of components in a single dashboard screen, and the use of **color** and color schemes throughout a dashboard.
+The **composition** of a dashboard determines how its individual components are combined on screen. Dashboards show multiple information elements and their structure and layout on page are meaningful decisions made by a designer. We identified several groups of composition pattern: the use of available **screenspace** to represent information (including strategies for reducing the amount of information shown at once), the **structure** of multiple dashboard pages and the relationships between those, the **layout** of components in a single dashboard page, and the use of **color** and color schemes throughout a dashboard.
 
 ## 2.1 Screenspace
 
@@ -124,9 +124,26 @@ Dashboards can only show a certain amount of information on screen at a single t
 
 ---
 
-## 2.2 Layout
+## 2.2 Page Structure
 
-Layout patterns describe how the widgets are laid out and sometimes implicitly grouped together in a dashboard - i.e., the prominent layout decision used to group a potentially large set of visual components. We emphasize that none of these layout patterns are exclusive and combinations can be used. Note: when describing layout patterns, we define a *widget* as the smallest unit on screen.
+These **structure** patterns describe how a dashboard organizes information across multiple pages, and the implied relationships between those pages.
+
+**Single Page:** a dashboard presents all information on one page, e.g., using *screenfit* or *overflow* to utilise available screenspace.
+
+**Hierarchical**: a dashboard has multiple pages organized in a hierarchy that implies a structured relationship between pages and the information they convey. Dashboard pages at adjacent levels of the hierarchy might, for example, differ in the amount of detail they show and support users in *drilling down* to greater levels of detail (e.g., abstract representations in a top-level page vs detailed representations in a low-level page). Dashboard pages from the same level of the hierarchy will typically be related in some way (e.g., a top-level page showing data from a whole country, with multiple lower-level pages showing data from the individual regions of that country).
+
+**Parallel**: a dashboard has information distributed across multiple pages, all considered to be at the same 'level' with no hierarchical relationships between them. For example, each page might represent distinct facets of the data set. Navigation between pages is typically unconstrained via top-level navigation widgets like *tabs* or *links*.
+
+**Open**: a dashboard has multiple pages but with less rigid relationships between them. Contrast with a *hierarchical* or *parallel* dashboard structure, where there are more clearly defined relationships between pages.
+
+**Semantic**: a dashboard with multiple pages, whose relationships are determined by the semantics of the information being shown.
+
+---
+
+
+## 2.3 Layout
+
+Layout patterns describe how the widgets are laid out and sometimes implicitly grouped together in a dashboard view - i.e., the prominent layout decision used to group a potentially large set of visual components. We emphasize that none of these layout patterns are exclusive and combinations can be used. Note: when describing layout patterns, we define a *widget* as the smallest unit on screen.
 
 <img src="docs/assets/icons/layout-open.png" height="30px" /> **Open Layouts:** widgets of different sizes and aspect ratios are laid out in an open way without apparent specific rules. Often these widgets are aligned at a grid following classical design guidelines. There is no strong semantic associated with the location and adjacency of widgets and each widget seems to have equal importance. Widgets can be arranged closely if they are related (e.g., first and second COVID-19 vaccine dose) or they have similar visual types for aesthetics reason (e.g., top rows are all gauges and bottom rows are all line charts). Tiled layouts invite reordering and adjustment of widgets by the user.
 
@@ -145,15 +162,7 @@ Layout patterns describe how the widgets are laid out and sometimes implicitly g
 
 ---
 
-<!--
-## 2.2 Structure
-
-Whereas layout describes composition within an individual dashboard view, structure patterns describe how a dashboard organizes one or more of its views for presentation to the user. These patterns describe how dashboard content is shown on-screen and which interactions, if necessary, are used to access additional information or views. While some consider it necessary for a dashboard to show content that fits on a single screen without the need for interaction, it may be necessary to deal with 'excess' content that overflows the available screen space. We consider structure as a deliberate design choice, not as a result of, e.g., responsive web layouts.
-
----
--->
-
-## 2.3 Color
+## 2.4 Color
 
 Color is an important visual variable in visualization and can be used for different purposes in dashboard design as well.
 
