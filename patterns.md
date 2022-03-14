@@ -8,15 +8,15 @@ The **components** of a dashboard are the crucial visual elements of a dashboard
 
 This group captures the type of information shown in a dashboard. We found that information in dashboards ranges from the presentation of *raw data* to several levels of *abstractions* which simplify and reduce the amount of information shown. In other words, given a data set with multiple data elements (e.g., rows in a data table) and attributes (columns), dashboards can provide many different abstractions of this data set. 
 
-<img src="docs/assets/icons/data-simple.PNG" height="30px" /> **Single value(s)** are specific data points in a data set, e.g., the most recent value in a time series. Showing an individual value (compared to the entire or a filtered data set) implies the importance of the single, e.g., most recent, or highest, value in a given context. 
+<img src="docs/assets/icons/data-simple.PNG" height="30px" /> **Individual values** are specific data points in a data set, e.g., the most recent value in a time series. Showing an individual value (compared to the entire or a filtered data set) implies the importance of the single, e.g., most recent, or highest, value in a given context. 
 
-<img src="docs/assets/icons/data-complex.PNG" height="30px" /> **Datasets** offer a more complete presentation of data. This can include multiple data elements and attributes, time series, and detailed geographic information which all show raw data. In the case of time series, a dataset is often filtered to a time range of relevance, e.g., the *last 14 days*. Showing raw data implies lots of details but little "judgement" about which characteristics of this data set are important. Datasets are shown to provide an overview, support comparison of multiple data sets, and to encourage individual exploration and analysis. 
+<img src="docs/assets/icons/data-derived.PNG" height="30px" /> **Derived values** include information derived from datasets or other values (e.g., trends). These provide a degree of abstraction over a data set, since they imply a specific interest in these derived values rather than the raw data. For example, derived values can be Key Performance Indicators in a given context. In many cases, derived values have been calculated independently from the dashboard (e.g., incidence values per fixed population).
 
-**Aggregated values** ...
-
-<img src="docs/assets/icons/data-derived.PNG" height="30px" /> **Derived value(s)** include statistics such as means, values, trends and change deltas. Derived values provide a higher-level of abstraction of a data set, since they imply a specific interest in these derived values. For example, derived values can be Key Performance Indicators in a given context. In many cases, derived values have been calculated independently from the dashboard (e.g., incidence values per fixed population).
-    
 <img src="docs/assets/icons/data-threshold.PNG" height="30px" /> **Thresholds** make an explicit judgment about a data point, e.g., indicating whether a situation is *good*, *bad*, or *neutral*, according to objective thresholds for subjective labels. Thresholds are one of the highest levels of abstraction found in dashboards, as thresholds can have specific semantic meaning and implications.
+
+<img src="docs/assets/icons/data-aggregate.png" height="30px" /> **Aggregated data** are the result of bringing together numerous data points into a new and more concise data point. For example, data values from the individual regions of a country may be aggregated into a sum or mean value about the country as a whole. Aggregation often implies the presence of multiple related data values, which may be of particular interest to a dashboard user.
+
+<img src="docs/assets/icons/data-complex.PNG" height="30px" /> **Detailed datasets** offer a more complete presentation of data. This can include multiple data elements and attributes, time series, and detailed geographic information which all show raw data. In the case of time series, a dataset is often filtered to a time range of relevance, e.g., the *last 14 days*. Showing raw data implies lots of details but little "judgement" about which characteristics of this data set are important. Datasets are shown to provide an overview, support comparison of multiple data sets, and to encourage individual exploration and analysis. 
 
 ### Data Information Examples
 
@@ -79,7 +79,19 @@ This group describes common interaction approaches found within the dashboards. 
 
 <img src="docs/assets/icons/int-exploration.PNG" height="30px" /> **Exploration** interactions allow users to explore data elements and the relations between them. Exploration interactions can take on my forms, including: *brushing and linking* interactions that link data representations across different views, *detail-on-demand* interactions that provide additional information through pop-ups or tooltips, and *search/filter* interactions that provide user interface elements to allow users to find or focus on specific data.
 
-<img src="docs/assets/icons/int-navigation.PNG" height="30px" /> **Navigation** interactions enable designers to direct users through facets of information in a particular order. Interaction elements can be used to navigate between different dashboard components and layout structures (e.g., pages, tabs). Interaction techniques and elements such as *scrolling*, *navigation buttons*, or *tab links* can be used to create a journey for the viewers through which they explore the information. Navigation can be *constrained* and follow a particular sequence, or can be *unconstrained* to allow free navigation. 
+<img src="docs/assets/icons/int-navigation.PNG" height="30px" /> **Navigation** interactions enable designers to direct users through facets of information in a particular order. Interaction elements can be used to navigate between different dashboard components and layout structures (e.g., pages, tabs). Interaction techniques and elements such as *scrolling*, *navigation buttons*, or *tab links* can be used to create a journey for the viewers through which they explore the information. Navigation can be *constrained* and follow a particular sequence, or can be *unconstrained* to allow free navigation. Examples of navigation interactions include:
+
+<!--<img src="docs/assets/icons/pagination-tabs.png" height="30px" />-->
+- **Tabs** that inform the user about available content and allows navigation between views.
+
+<!--<img src="docs/assets/icons/pagination-linked.png" height="30px" />-->
+- **Links** that support navigation through clickable visual elements (e.g., charts, titles, clickable text).
+
+<!--<img src="docs/assets/icons/pagination-nav.png" height="30px" />-->
+- **Navigation buttons** that allow users to move forwards or backwards through the pages of a dashboard in (or out of) sequence.
+
+<!--<img src="docs/assets/icons/pagination-anim.png" height="30px" />-->
+- **Animated transitions** that are used to advance through dashboard pages automatically, like a slide show.
 
 <img src="docs/assets/icons/int-personalization.PNG" height="30px" /> **Personalization:** interactions allow users to redefine and reconfigure the information shown within a dashboard. For example, users may be able to add new representations (e.g., by choosing a new data feature to be visualized), resize dashboard elements, or reorder the existing dashboard elements. Such interactions may lead to more specialized and bespoke dashboard configurations, where the viewers are more actively engaged with the information content after the dashboard is designed and deployed.
 
@@ -92,10 +104,25 @@ This group describes common interaction approaches found within the dashboards. 
 
 # 2. Composition Design Patterns
 
-The **composition** of a dashboard determines how its individual components are combined on screen. Dashboards show multiple information elements and their structure and layout on page are meaningful decisions made by a designer. We identified three groups of composition pattern: the **layout** of components in a dashboard, the **structure** of contents across one or more dashboard pages, and the use of **color** and color schemes throughout a dashboard.
+The **composition** of a dashboard determines how its individual components are combined on screen. Dashboards show multiple information elements and their structure and layout on page are meaningful decisions made by a designer. We identified several groups of composition pattern: the **pagination** approach used to distribute information across one or more dashboard page(s), the **layout** of components in a single dashboard page, and the use of **color** and color schemes throughout a dashboard.
+
+## 2.1 Pagination
+
+Dashboards can only show a certain amount of information on screen at a single time: available space is consumed by the amount of *data information* to be shown and the dimensions of their *visual encodings*. Whilst some dashboards can fit entirely on a single page, it may be necessary to adopt layout strategies that reduce the amount of information shown on screen at a given time. Pagination patterns identify a range of strategies for making use of available screen space, ranging from concise **screenfit** dashboards that fit entirely on screen in a single page, to less concise dashboards with **multiple pages** of information. These strategies are not mutually exclusive and can be combined, e.g., using **detail-on-demand** to make more economical use of screen space in a **screenfit** dashboard.
+
+<img src="docs/assets/icons/pagination-screenfit.png" height="30px" /> **Screenfit** dashboards are fully visible on screen and all information is visible at all times. No interaction is needed to view any of the dashboard content, as all information fits on screen and is available at a glance.
+
+<img src="docs/assets/icons/pagination-scroll.png" height="30px" /> **Overflow** designs allow a dashboard to exceed the available screen boundaries, so that additional content is rendered off-screen and is revealed as the user scrolls. This approach allows all dashboard views to be made available on a single page, even if not all are visible on screen at once.
+
+<img src="docs/assets/icons/pagination-tooltip.png" height="30px" /> **Detail-on-demand** interactions allow dashboards to reduce the amount of information shown on screen at once, by revealing more details only when the user asks (for example, using tooltips or pop-ups).
+
+<img src="docs/assets/icons/pagination-parameterization.png" height="30px" /> **Parameterized** dashboards allow users to control what content is currently shown on screen. We found several approaches for providing dashboard parameters, including checkboxes, drop-down menus, lists and search fields for filtering data, sliders and pickers for selecting date ranges, or radio buttons and switches for changing the data. These typically allow users to choose which data is shown through the dashboard widgets.
+
+<img src="docs/assets/icons/pagination-animation.png" height="30px" /> **Multiple page** dashboards are composed of elements distributed across several pages, with one page shown on screen at a time; here, 'page' refers to a single composite view within a dashboard and does not necessarily mean, e.g., distinct web pages. There were many strategies for presenting an overview of available dashboard pages and allowing viewers to navigate between them, including *tabs*, *navigation buttons* and *links*.
+
 
 ---
-
+<!--
 ## 2.1 Layout
 
 Layout patterns describe how the widgets are laid out and sometimes implicitly grouped together in a dashboard - i.e., the prominent layout decision used to group a potentially large set of visual components. We emphasize that none of these layout patterns are exclusive and combinations can be used. Note: when describing layout patterns, we define a *widget* as the smallest unit on screen.
@@ -119,25 +146,9 @@ Layout patterns describe how the widgets are laid out and sometimes implicitly g
 
 ## 2.2 Structure
 
-Whereas layout describes composition within an individual dashboard view, structure patterns describe how a dashboard organizes one or more of its views for presentation to the user. These patterns describe how dashboard content is shown on a single screen and which interactions, if necessary, are used to access additional information or views. While some consider it necessary for a dashboard to show content that fits on screen without the need for interaction, it may be necessary to deal with 'excess' content that overflows the available screen space. We consider structure as a deliberate design choice, not as a result of, e.g., responsive web layouts.
+Whereas layout describes composition within an individual dashboard view, structure patterns describe how a dashboard organizes one or more of its views for presentation to the user. These patterns describe how dashboard content is shown on-screen and which interactions, if necessary, are used to access additional information or views. While some consider it necessary for a dashboard to show content that fits on a single screen without the need for interaction, it may be necessary to deal with 'excess' content that overflows the available screen space. We consider structure as a deliberate design choice, not as a result of, e.g., responsive web layouts.
 
-<img src="docs/assets/icons/pagination-screenfit.png" height="30px" /> **Flat** dashboards have a single view that should be fully visible on a given screen size. No interaction is needed to view all of the content, as all information fits on screen and is available at a glance.
-
-<img src="docs/assets/icons/pagination-animation.png" height="30px" /> **Paginated** dashboards are composed of elements distributed across several pages, with one page shown on screen at a time; here, 'page' refers to a single composite view within a dashboard and does not necessarily mean, e.g., distinct web pages. There were many strategies for presenting an overview of available dashboard pages and allowing viewers to navigate between them, including:
-
-- <img src="docs/assets/icons/pagination-tabs.png" height="30px" /> **Tabs** structure dashboard views by category or theme. Through their titles, tabs inform the user about available content and supports navigation to the most relevant information.
-
-- <img src="docs/assets/icons/pagination-linked.png" height="30px" /> **Links** provide dashboard navigation through visual elements (e.g., charts, titles, clickable text). We consider these separately from the link behaviors of tabs.
-
-- <img src="docs/assets/icons/pagination-nav.png" height="30px" /> **Navigation buttons** allow users to move forwards or backwards through the pages of a dashboard in sequence. These may be used along with other navigation elements (e.g., tabs or links).
-
-- <img src="docs/assets/icons/pagination-anim.png" height="30px" /> **Animated transitions** can be used to advance through dashboard pages automatically, like a slide show.
-
-<img src="docs/assets/icons/pagination-scroll.png" height="30px" /> **Overflow** designs allow a dashboard to exceed the available screen boundaries, so that additional content is revealed as the user scrolls. This offers an alternative to *Paginated* design, with all dashboard views available on a single page even if not all are visible at once.
-
-<img src="docs/assets/icons/pagination-tooltip.png" height="30px" /> **Detail-on-demand** interactions allow dashboards to reduce the amount of information shown on screen at once, by revealing more details only when the user asks (for example, using tooltips or pop-ups).
-
-<img src="docs/assets/icons/pagination-parameterization.png" height="30px" /> **Parameterized** dashboards allow users to control what content is currently shown. We found several approaches for providing dashboard parameters, including checkboxes, drop-down menus, lists and search fields for filtering data, sliders and pickers for selecting date ranges, or radio buttons and switches for changing the data. These typically allow users to choose which data is shown through the dashboard widgets. Parameterization can be used in combination with other structures, e.g., *Flat* or *Paginated* designs may offer search and filter capabilities.
+-->
 
 ---
 
