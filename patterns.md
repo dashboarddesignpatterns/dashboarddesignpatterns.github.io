@@ -106,7 +106,7 @@ This group describes common interaction approaches found within the dashboards. 
 
 # 2. Composition Design Patterns
 
-The **composition** of a dashboard determines how its individual components are combined on screen. Dashboards show multiple information elements and their structure and layout on page are meaningful decisions made by a designer. We identified several groups of composition pattern: the use of available **screenspace** to represent information (including strategies for reducing the amount of information shown at once), the **structure** of multiple dashboard pages and the relationships between those, the **layout** of components in a single dashboard page, and the use of **color** and color schemes throughout a dashboard.
+The **composition** of a dashboard determines how its individual components are combined on screen. Dashboards show multiple information elements and their structure and layout on page are meaningful decisions made by the designer. We identified several groups of composition pattern: the use of available **screenspace** to represent information (including strategies for reducing the amount of information shown at once), the **structure** of multiple dashboard pages and the relationships between those, the **layout** of components in a single dashboard page, and the use of **color** and color schemes throughout a dashboard.
 
 ## 2.1 Screenspace
 
@@ -126,7 +126,7 @@ Dashboards can only show a certain amount of information on screen at a single t
 
 ## 2.2 Page Structure
 
-These **structure** patterns describe how a dashboard organizes information across multiple pages, and the implied relationships between those pages.
+These **page structure** patterns describe how a dashboard organizes information across multiple pages, and the implied relationships between those pages. These patterns may influence how a user navigates through the various pages of a dashboard, and may also be influenced by the intended use of the dashboard (e.g., providing a *hierarchical* page structure so that users can 'drill down' into increasing levels of detail, or using a *parallel* page structure when users only need a high-level overview of small number of views).
 
 <img src="docs/assets/icons/pagestructure-single.png" height="30px" /> **Single Page:** a dashboard presents all information on one page, e.g., using *screenfit* or *overflow* to utilise available screenspace.
 
@@ -134,9 +134,9 @@ These **structure** patterns describe how a dashboard organizes information acro
 
 <img src="docs/assets/icons/pagestructure-parallel.png" height="30px" /> **Parallel**: a dashboard has information distributed across multiple pages, all considered to be at the same 'level' with no hierarchical relationships between them. For example, each page might represent distinct facets of the data set. Navigation between pages is typically unconstrained via top-level navigation widgets like *tabs* or *links*.
 
-<img src="docs/assets/icons/pagestructure-open.png" height="30px" /> **Open**: a dashboard has multiple pages but with less rigid relationships between them. Contrast with a *hierarchical* or *parallel* dashboard structure, where there are more clearly defined relationships between pages.
+<img src="docs/assets/icons/pagestructure-open.png" height="30px" /> **Open**: a dashboard has multiple pages but with less rigid relationships between them. Contrast with a *hierarchical* or *parallel* dashboard structure, where there are more clearly defined relationships between pages and the data information they show.
 
-<img src="docs/assets/icons/pagestructure-semantic.png" height="30px" /> **Semantic**: a dashboard with multiple pages, whose relationships are determined by the semantics of the information being shown.
+<img src="docs/assets/icons/pagestructure-semantic.png" height="30px" /> **Semantic**: a dashboard with multiple pages, whose relationships are determined by the semantics of the information being shown. For example, a dashboard for an organization may have pages relating to distinct divisions within the company, with pages following the operational structure of those divisions.
 
 ---
 
