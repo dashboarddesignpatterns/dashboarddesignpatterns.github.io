@@ -128,15 +128,15 @@ Dashboards can only show a certain amount of information on screen at a single t
 
 These **structure** patterns describe how a dashboard organizes information across multiple pages, and the implied relationships between those pages.
 
-**Single Page:** a dashboard presents all information on one page, e.g., using *screenfit* or *overflow* to utilise available screenspace.
+<img src="docs/assets/icons/pagestructure-single.png" height="30px" /> **Single Page:** a dashboard presents all information on one page, e.g., using *screenfit* or *overflow* to utilise available screenspace.
 
-**Hierarchical**: a dashboard has multiple pages organized in a hierarchy that implies a structured relationship between pages and the information they convey. Dashboard pages at adjacent levels of the hierarchy might, for example, differ in the amount of detail they show and support users in *drilling down* to greater levels of detail (e.g., abstract representations in a top-level page vs detailed representations in a low-level page). Dashboard pages from the same level of the hierarchy will typically be related in some way (e.g., a top-level page showing data from a whole country, with multiple lower-level pages showing data from the individual regions of that country).
+<img src="docs/assets/icons/pagestructure-hierarchy.png" height="30px" /> **Hierarchical**: a dashboard has multiple pages organized in a hierarchy that implies a structured relationship between pages and the information they convey. Dashboard pages at adjacent levels of the hierarchy might, for example, differ in the amount of detail they show and support users in *drilling down* to greater levels of detail (e.g., abstract representations in a top-level page vs detailed representations in a low-level page). Dashboard pages from the same level of the hierarchy will typically be related in some way (e.g., a top-level page showing data from a whole country, with multiple lower-level pages showing data from the individual regions of that country).
 
-**Parallel**: a dashboard has information distributed across multiple pages, all considered to be at the same 'level' with no hierarchical relationships between them. For example, each page might represent distinct facets of the data set. Navigation between pages is typically unconstrained via top-level navigation widgets like *tabs* or *links*.
+<img src="docs/assets/icons/pagestructure-parallel.png" height="30px" /> **Parallel**: a dashboard has information distributed across multiple pages, all considered to be at the same 'level' with no hierarchical relationships between them. For example, each page might represent distinct facets of the data set. Navigation between pages is typically unconstrained via top-level navigation widgets like *tabs* or *links*.
 
-**Open**: a dashboard has multiple pages but with less rigid relationships between them. Contrast with a *hierarchical* or *parallel* dashboard structure, where there are more clearly defined relationships between pages.
+<img src="docs/assets/icons/pagestructure-open.png" height="30px" /> **Open**: a dashboard has multiple pages but with less rigid relationships between them. Contrast with a *hierarchical* or *parallel* dashboard structure, where there are more clearly defined relationships between pages.
 
-**Semantic**: a dashboard with multiple pages, whose relationships are determined by the semantics of the information being shown.
+<img src="docs/assets/icons/pagestructure-semantic.png" height="30px" /> **Semantic**: a dashboard with multiple pages, whose relationships are determined by the semantics of the information being shown.
 
 ---
 
