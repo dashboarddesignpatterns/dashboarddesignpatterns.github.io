@@ -31,7 +31,13 @@ design patterns as a checklist for design.
 
 ## Design Tradedoffs
 
+Dashboard design involves many tradeoffs, some of which are pictured in the schema below. Arrows are representative for relationships between the variables. A detailed schema and discussion on tradeoffs can be [found here](tradeoffs.html).
+
 ![](docs/assets/figures/schema1.png)
+
+# Process Outline
+
+Below is a possible outline for a design process. Stages should serve as a guide though the process, rather than strict instructions. Any design process is iterative, requires re-making decisions, exploring alternatives, and crticialy evaluating current solutions.
 
 ## Stage 0: Clarify the context
 
