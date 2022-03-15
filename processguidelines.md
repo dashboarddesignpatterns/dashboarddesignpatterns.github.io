@@ -27,6 +27,7 @@ Guidelines are numberd for convenience but are **not ordered** by any particular
 1. **Consider the dashboard templates** best suited to the dashboard
 audience and their informational needs, and use their characteristic
 design patterns as a checklist for design. 
+1. Consider [design tradeoffs](tradeoffs.html)
 
 
 
