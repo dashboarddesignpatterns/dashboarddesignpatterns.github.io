@@ -2,18 +2,26 @@
 
 ## High-level Design Guidelines
 
-1. Balance data + space (cost) while increasing information
+1. Don’t overwhelm viewers
+1. Avoid visual clutter
+1. Avoid poor visual design 
+1. Carefully chose KPIs
+1. Align with existing workflows
+1. Don’t add too much data
+1. Provide for consistency
+1. Provide for interaction affordances
+1. Manage complexity
+1. Organize charts symmetrically
+1. Group charts by attribute
+1. Order charts by time
+1. Balance data + space 
+1. Increase information
 1. Avoid redundancy of information
 1. Show information, rather than data
-1. (Dashboard) design is an iterative process. The stages outlines on this page are informal and aim to guide your thinking. However, be prepared to revise decisions made on an earlier stage to solve a problem later on. 	
-1. Context is very important in (dashboard) design. Consider how your dashboard is being used, by whom, and for what. Think of clear sceanarios.	
-1. For **transparency**, provide meta information:
-  * e.g., state the data source , provide disclaimers
-about how data were processed;
-  * e.g., use tooltips or pagination if space is con-
-strained;
-
-
+1. Design is an iterative process
+1. Context is very important
+1. State your meta data
+1. Use color carefully
 1. **Consider the dashboard templates** best suited to the dashboard
 audience and their informational needs, and use their characteristic
 design patterns as a checklist for design. 
