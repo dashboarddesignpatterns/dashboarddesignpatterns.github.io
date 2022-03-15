@@ -1,12 +1,12 @@
 
 ## Jump to... 
 * **[Data Information](#data-information)**
-* **[Structure](#page-structure)**
-* **[Visual Representation](#visual-representation)**
+* **[Structure](#structure)**
+* **[Visual Representation](#visual-representations)**
 * **[Page Layout](#page-layout)**
 * **[Screenspace](#screenspace)**
-* **[Interactivity](interactions)**
-* **[Meta Information](#meta0information)**
+* **[Interactivity](#interactions)**
+* **[Meta Information](#meta-information)**
 * **[Color](#color)**
 
 # 1. Component Design Patterns
