@@ -65,7 +65,7 @@ At this stage, you want to clarify the context in which your dashboard is being 
 
 ![](docs/assets/figures/patterns-data.png)
 
-**[Design Patterns & Examples](patterns.html#11-data-information)**
+**[Design Patterns & Examples](patterns.html#data-information)**
 
 At this stage, you want to clarify which information from the dataset is important for the user in a given task (see Stage 0). The design patterns give you some ideas what information and how much information you want to provide about your data set. For some of these options we can say they are showing 'more' data, for others, we can say they abstract and show 'less' data.  
 
@@ -73,7 +73,7 @@ At this stage, you want to clarify which information from the dataset is importa
 
 ![](docs/assets/figures/patterns-structure.png)
 
-**[Design Patterns & Examples](patterns.html#22-page-structure)**
+**[Design Patterns & Examples](patterns.html#page-structure)**
 
 At this stage, you should think about the overall structure of your information and whether you 
 * can display everything a single page (or screen), or 
@@ -86,7 +86,7 @@ A page / screen here refers to any consistent unit of information you are showin
 
 ![](docs/assets/figures/patterns-vis.png)
 
-**[Design Patterns & Examples](patterns.html#13-visual-encoding)**
+**[Design Patterns & Examples](patterns.html#visual-encoding)**
 
 At this stage you want to find visual representations for your data and information (for each page). Similar to data, these visual representations can show more detail and using more screenspace, or they can be more concise and using less screenspace. You can match different design patterns about Data and Visual Representation.
 
@@ -109,19 +109,19 @@ creating a dedicated and clearly distinguishable scheme for each
 visualization.
 
 
-## Stage 4: Layout
+## Stage 4: Page Layout
 
 ![](docs/assets/figures/patterns-layout.png)
 
-**[Design Patterns & Examples](patterns.html#23-layout)**
+**[Design Patterns & Examples](patterns.html#layout)**
 
 At this stage, you develop a layout of your page. You need to organize the individual components and visual representations into a meaningful structure. That structure should reflect how the components are related and of which importance they are to the user. For example, if you have lots of similar information (such as line charts for some data) you may consider a parallel (table) structure that emphsizes repetition and where each widget is containing similar information about its respective data. 
 
-## Stage 5: Screen space
+## Stage 5: Screenspace
 
 ![](docs/assets/figures/patterns-screensize.png)
 
-**[Design Patterns & Examples](patterns.html#21-screenspace)**
+**[Design Patterns & Examples](patterns.html#screenspace)**
 
 At this stage you need to decide how to deal with your screen space. You have several options to 
 * try to fit everything into a single screen, or
@@ -141,7 +141,7 @@ ings on screen;
 
 ![](docs/assets/figures/patterns-interaction.png)
 
-**[Design Patterns & Examples](patterns.html#14 interactions)**
+**[Design Patterns & Examples](patterns.html#interactions)**
 
 At this stage you will think about the specific interaction components you need to support
 * exploration 
