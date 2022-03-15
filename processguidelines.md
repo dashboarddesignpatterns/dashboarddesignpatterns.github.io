@@ -72,38 +72,22 @@ At this stage, you want to clarify which information from the dataset is importa
 * show derived values (e.g., means, trends, summaries) 
 * show thresholds
 
-**Guidelines**
 
 
+## Stage 2: Structure
 
-## Stage 2: Structure and Page fit
-
-**Design Patterns**:  
+**Design Patterns**: [Data Information](patterns.html#22-page-structure)
 
 At this stage, you should think about the overall structure of your information and whether you 
 * can display everything a single page (screen), or 
 * whether you need multiple pages to show all the information you identified in stage 1.
 
-In case you need multuple pages, here are some options they can be related: 
-* hierarchical
-* repeated
-* semantic
-
-**Guidelines**
-
-1. **Avoid overflow structure in analytic dashboards** to facilitate
-comparison;
-   * e.g., use flat or paginated dashboards that fit encod-
-ings on screen;
-			§ A good structure is informed by (i) data (facets, information), and tasks (overview, comparison).
-			§ That structure needs to reflect structure in data and task
-
-
+If you have multiple pages, you want to think about their relationship and what information goes onto what page. 
 
 
 ## Stage 3: Visual Representations
 
-**Design Patterns**:  
+**Design Patterns**:  [Visual Representation](patterns.html#13-visual-encoding)
 
 At this stage you want to find visual representations for your data and information (for each page). The list of design patterns is long: 
 * numbers
@@ -115,7 +99,7 @@ At this stage you want to find visual representations for your data and informat
 * tables
 * lists
 
-**Guidelines** 
+**Specific guidelines**
 
 1. Where space allows, **provide redundant and complementary views**
 (visual encodings) and levels of abstraction (data information) for
@@ -135,9 +119,9 @@ visualization.
 
 
 
-## Stage 4: Page Layout
+## Stage 4: Layout
 
-**Design Patterns:**
+**Design Patterns**:  [Page Layout](patterns.html#23-layout)
 
 At this stage, you develop a layout of your page. You need to organize the individual components (those defined in stage 3) into a meaningful structure. That structure should reflect how the components are related and of which importance they are to the user. The design patterns in this stage include: 
 * Stratified layout with a clear top-bottom hierarchy.
@@ -147,9 +131,25 @@ At this stage, you develop a layout of your page. You need to organize the indiv
 * Schematic layout: you aling your components informed by some external property such as a physical lay-
 out or other types of schematic relationships
 
-**Guidelines** 
 
-## Stage 5: Interactivity 
+## Stage 5: Screen space
+
+**Design Patterns**:  [Screen Space](patterns.html#21-screenspace)
+
+At this stage you need to decide how to deal with your screen space. You have several options to 
+* try to fit everything into a single screen, or
+* split up the information (again) across multiple pages.
+
+**Guidelines**
+
+1. **Avoid overflow structure in analytic dashboards** to facilitate
+comparison;
+   * e.g., use flat or paginated dashboards that fit encod-
+ings on screen;
+
+
+
+## Stage 6: Interactivity 
 
 **Design Patterns**
 
@@ -159,7 +159,8 @@ At this stage you will think about the specific interaction components you need 
 * navitation
 * personalization
 
-**Guidelines**
+**Design Patterns**:  [Screen Space](patterns.html#14-interactions)
+
 
 1. Interaction can be a powerful means to personalize, explore, navigate, and focus. 
 1. Minimize interaction: If you can solve something with minimal or no interaction, go for it.
