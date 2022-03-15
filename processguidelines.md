@@ -63,6 +63,8 @@ At this stage, you want to clarify the context in which your dashboard is being 
 
 ## Stage 1: Data & Information
 
+![](docs/assets/figures/patterns-data.png)
+
 **Design Patterns**: [Data Information](patterns.html#11-data-information)
 
 At this stage, you want to clarify which information from the dataset is important for the user in a given task (see Stage 0). This may involve 
@@ -76,7 +78,9 @@ At this stage, you want to clarify which information from the dataset is importa
 
 ## Stage 2: Structure
 
-**Design Patterns**: [Data Information](patterns.html#22-page-structure)
+![](docs/assets/figures/patterns-structure.png)
+
+**Design Patterns**: [Structure](patterns.html#22-page-structure)
 
 At this stage, you should think about the overall structure of your information and whether you 
 * can display everything a single page (screen), or 
@@ -86,6 +90,8 @@ If you have multiple pages, you want to think about their relationship and what 
 
 
 ## Stage 3: Visual Representations
+
+![](docs/assets/figures/patterns-vis.png)
 
 **Design Patterns**:  [Visual Representation](patterns.html#13-visual-encoding)
 
@@ -121,6 +127,8 @@ visualization.
 
 ## Stage 4: Layout
 
+![](docs/assets/figures/patterns-layout.png)
+
 **Design Patterns**:  [Page Layout](patterns.html#23-layout)
 
 At this stage, you develop a layout of your page. You need to organize the individual components (those defined in stage 3) into a meaningful structure. That structure should reflect how the components are related and of which importance they are to the user. The design patterns in this stage include: 
@@ -133,6 +141,8 @@ out or other types of schematic relationships
 
 
 ## Stage 5: Screen space
+
+![](docs/assets/figures/patterns-screensize.png)
 
 **Design Patterns**:  [Screen Space](patterns.html#21-screenspace)
 
@@ -151,6 +161,8 @@ ings on screen;
 
 ## Stage 6: Interactivity 
 
+![](docs/assets/figures/patterns-interaction.png)
+
 **Design Patterns**
 
 At this stage you will think about the specific interaction components you need to support
@@ -158,9 +170,6 @@ At this stage you will think about the specific interaction components you need 
 * focus & filter
 * navitation
 * personalization
-
-**Design Patterns**:  [Screen Space](patterns.html#14-interactions)
-
 
 1. Interaction can be a powerful means to personalize, explore, navigate, and focus. 
 1. Minimize interaction: If you can solve something with minimal or no interaction, go for it.
