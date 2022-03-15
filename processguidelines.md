@@ -29,7 +29,9 @@ audience and their informational needs, and use their characteristic
 design patterns as a checklist for design. 
 1. Consider [design tradeoffs](tradeoffs.html)
 
+## Design Tradedoffs
 
+![](docs/assets/figures/schema1.png)
 
 ## Stage 0: Clarify the context
 
