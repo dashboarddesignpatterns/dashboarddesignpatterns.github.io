@@ -1,3 +1,14 @@
+
+## Jump to... 
+* **[Data Information](#data-information)**
+* **[Structure](#page-structure)**
+* **[Visual Representation](#visual-representation)**
+* **[Page Layout](#page-layout)**
+* **[Screenspace](#screenspace)**
+* **[Interactivity](interactions)**
+* **[Meta Information](#meta0information)**
+* **[Color](#color)**
+
 # 1. Component Design Patterns
 
 The **components** of a dashboard are the crucial visual elements of a dashboard, relating to the data and its presentation. We identified four groups of design patterns: **data information**, **meta information**, the **visual encoding** of the data, and the high level **interactions** supported by the dashboard. We disregard any visual components that purely serve as decoration or embellishment, e.g., illustrative pictures, dividers, borders, etc.
