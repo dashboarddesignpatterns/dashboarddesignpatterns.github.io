@@ -86,7 +86,7 @@ A page / screen here refers to any consistent unit of information you are showin
 
 ![](docs/assets/figures/patterns-vis.png)
 
-**[Design Patterns & Examples](patterns.html#visual-encoding)**
+**[Design Patterns & Examples](patterns.html#visual-representation)**
 
 At this stage you want to find visual representations for your data and information (for each page). Similar to data, these visual representations can show more detail and using more screenspace, or they can be more concise and using less screenspace. You can match different design patterns about Data and Visual Representation.
 
@@ -113,7 +113,7 @@ visualization.
 
 ![](docs/assets/figures/patterns-layout.png)
 
-**[Design Patterns & Examples](patterns.html#layout)**
+**[Design Patterns & Examples](patterns.html#page-layout)**
 
 At this stage, you develop a layout of your page. You need to organize the individual components and visual representations into a meaningful structure. That structure should reflect how the components are related and of which importance they are to the user. For example, if you have lots of similar information (such as line charts for some data) you may consider a parallel (table) structure that emphsizes repetition and where each widget is containing similar information about its respective data. 
 
