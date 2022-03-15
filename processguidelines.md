@@ -73,7 +73,7 @@ At this stage, you want to clarify which information from the dataset is importa
 
 ![](docs/assets/figures/patterns-structure.png)
 
-**[Design Patterns & Examples](patterns.html#page-structure)**
+**[Design Patterns & Examples](patterns.html#structure)**
 
 At this stage, you should think about the overall structure of your information and whether you 
 * can display everything a single page (or screen), or 
@@ -86,7 +86,7 @@ A page / screen here refers to any consistent unit of information you are showin
 
 ![](docs/assets/figures/patterns-vis.png)
 
-**[Design Patterns & Examples](patterns.html#visual-representation)**
+**[Design Patterns & Examples](patterns.html#visual-representations)**
 
 At this stage you want to find visual representations for your data and information (for each page). Similar to data, these visual representations can show more detail and using more screenspace, or they can be more concise and using less screenspace. You can match different design patterns about Data and Visual Representation.
 
