@@ -53,10 +53,6 @@ We have three general check-ins where we encourage everone to attend. In between
 To help you with your designs asynchronously, we provide three means of communication: 
 * A [slack channel](https://join.slack.com/t/slack-4wm6695/shared_invite/zt-14x7ju7f5-IkAXD47iBTVZUBNCS4CI~g) 
 * A [public online forum](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/discussions)
-* In-person drop-sessions staffed by one of the organizers:
-  * Thursday 10-11am (Euan)
-  * Thursday 2-3pm (Ben)
-  * tbd..
 
 ## Sign up
 
