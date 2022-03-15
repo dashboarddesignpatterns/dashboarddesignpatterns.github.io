@@ -2,6 +2,8 @@
 
 ## High-level Design Guidelines
 
+(Guidelines are numberd for convenience but are **not ordered** by any particular priority.)
+
 1. Don’t overwhelm viewers
 1. Avoid visual clutter
 1. Avoid poor visual design 
