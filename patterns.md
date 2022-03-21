@@ -1,5 +1,11 @@
+# Design Patterns
+
+![](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/patterncheatsheet.png)
+**[>> Download Pattern Cheatsheet](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/patterncheatsheet.png)**
+
 
 ## Jump to... 
+
 * **[Data Information](#data-information)**
 * **[Structure](#structure)**
 * **[Visual Representation](#visual-representations)**
