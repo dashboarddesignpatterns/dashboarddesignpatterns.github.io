@@ -4,7 +4,7 @@
 
 This page lists **[design patterns for dashboard design](patterns.html)** collected to support the design and creative exploration of dashboard design. We run a dedicated **[workshop](workshop.html)** in March 2022 to help you applying and discussing design patterns in your work.
 
-[Download Pattern Cheatsheet](assets/patterncheatsheet.png)
+**[>> Download Pattern Cheatsheet](assets/patterncheatsheet.png)**
 
 ## What are Dashboards?
 Dashboards offer a curated lens through which people view large
