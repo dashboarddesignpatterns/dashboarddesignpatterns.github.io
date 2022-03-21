@@ -44,7 +44,10 @@ We have three general check-ins where we encourage everone to attend. In between
 * March 17 (Thu), 1-2pm: Drop-in session
 * March 18 (Fri), 1-2pm: Drop-in session
 * March 21 (Mon) 10-11am: Drop-in session
+* March 22 (Tue), 1-2pm: Drop-in session
 * March 23 (Wed), 1-2pm: Drop-in session
+* March 24 (Thu), 1-2pm: Drop-in session
+* March 25 (Fri), 1-2pm: Drop-in session
 * **March 25 (Fri) 3-4pm: Debrief**
 
 
