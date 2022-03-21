@@ -4,8 +4,6 @@
 
 This page lists **[design patterns for dashboard design](patterns.html)** collected to support the design and creative exploration of dashboard design. We run a dedicated **[workshop](workshop.html)** in March 2022 to help you applying and discussing design patterns in your work.
 
-**[>> Download Pattern Cheatsheet](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/patterncheatsheet.png)**
-
 ## What are Dashboards?
 Dashboards offer a curated lens through which people view large
 and complex data sets at a glance. They combine visual
@@ -18,6 +16,10 @@ many application domains, such as business, nursing and
 hospitals, public health, learning analytics, urban analytics, personal analytics, energy and more. 
 
 ## Why Design Patterns?
+
+![](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/patterncheatsheet.png)
+**[>> Download Pattern Cheatsheet](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/patterncheatsheet.png)**
+
 
 There are many high-level guidelines on dashboard design, including advice about visual perception, reducing information load,
 the use of interaction, and visualization literacy. Despite this, we know little about effective and applicable dashboard
