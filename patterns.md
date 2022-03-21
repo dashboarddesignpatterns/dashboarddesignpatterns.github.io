@@ -31,6 +31,8 @@ This group captures the type of information shown in a dashboard. We found that 
 
 <img src="docs/assets/icons/data-derived.PNG" height="30px" /> **Derived values** include information derived from datasets or other values (e.g., trends). These provide a degree of abstraction over a data set, since they imply a specific interest in these derived values rather than the raw data. For example, derived values can be Key Performance Indicators in a given context. In many cases, derived values have been calculated independently from the dashboard (e.g., incidence values per fixed population).
 
+**Filtered** shows a subset of the original (detailed) data, e.g., the last 14 days or any other simple rule to show a subset of the data available.
+
 <img src="docs/assets/icons/data-threshold.PNG" height="30px" /> **Thresholds** make an explicit judgment about a data point, e.g., indicating whether a situation is *good*, *bad*, or *neutral*, according to objective thresholds for subjective labels. Thresholds are one of the highest levels of abstraction found in dashboards, as thresholds can have specific semantic meaning and implications.
 
 <img src="docs/assets/icons/data-aggregate.png" height="30px" /> **Aggregated data** are the result of bringing together numerous data points into a new and more concise data point. For example, data values from the individual regions of a country may be aggregated into a sum or mean value about the country as a whole. Aggregation often implies the presence of multiple related data values, which may be of particular interest to a dashboard user.
