@@ -1,7 +1,8 @@
 # Design Process and Guidelines
 
-## High-level Design Guidelines
+## Guidelines
 
+### High-level Guidelines
 Guidelines are numberd for convenience but are **not ordered** by any particular priority.
 
 1. Don’t overwhelm viewers
@@ -24,10 +25,23 @@ Guidelines are numberd for convenience but are **not ordered** by any particular
 1. Context is very important
 1. State your meta data
 1. Use color carefully
-1. **Consider the dashboard templates** best suited to the dashboard
-audience and their informational needs, and use their characteristic
-design patterns as a checklist for design. 
+
+### Guidelines involving Design Patterns
+
 1. Consider [design tradeoffs](tradeoffs.html)
+1. Where space allows, provide redundant and complementary views (_visual representation_) and levels of abstraction (_data information_) for your data:
+   * e.g., show selected _numbers_ alongside _trend-arrows_ and  _signature charts_.
+   * e.g., more abstract encodings can occupy more screen space to emphasize importance/relevance/etc;
+   * e.g., use _single values_, _derived values_ and _thresholds_ to show key data points at a glance;
+1. For transparency, provide _meta information_:
+   * e.g., state the _data source_, provide _disclaimers_ about how data were processed;
+   * e.g., use _tooltips_ or _multiple pages_ if space is constrained;
+1. Avoid _overflow_ structure in _analytic dashboards_ to facilitate comparison;
+   * e.g., use _screenfit_ or _multiple pages_ dashboards that fit encodings on screen;
+1. Minimize repetitive data using abstraction (to emphasize key data) and _parameterization_ (to support _personalization_);
+1. Consider the dashboard types best suited to the dashboard audience and their informational needs, and use their characteristic design patterns as a checklist for design;
+1. Ensure a consistent color scheme across the entire dashboard, either by reusing colors for the same data and value, or by creating a dedicated and clearly distinguishable scheme for each visualization. 
+1. Chose a layout that expresses relations between widgets; following a given _schema_, _grouping_ by type or task, structured in a _table_, or _stratified_ to show important information on top.
 
 ## Design Tradedoffs
 
