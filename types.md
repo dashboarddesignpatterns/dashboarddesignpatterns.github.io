@@ -83,28 +83,7 @@ Infographic dashboards are often used to represent static datasets; e.g., presen
 
 ---
 
-## 2.4 Slideshow Dashboard
-
-<!-- <img src="docs/assets/figures/type-slideshow.PNG" height="60px" /> -->
-
-Common design patterns:
-
-- <img src="docs/assets/icons/pagination-animation.png" height="30px" /> **Animated** page transitions
-- <img src="docs/assets/icons/data-pictogram.png" height="30px" /> **Pictograms**
-- <img src="docs/assets/icons/data-signature.png" height="30px" /> **Signature Charts**
-- <img src="docs/assets/icons/data-arrows.png" height="30px" /> **Trend Arrows**
-- <img src="docs/assets/icons/data-number.png" height="30px" /> **Numbers**
-
-Animated slideshow dashboards are uncommon, but merit discussion as a style. These dashboards use automated animations to move through its pages, rather than explicit user interaction. The drawback of timing the slideshow can be overcome through simple *navigation buttons*; however, taking away the ability to navigate compels users to look at and think about the data. We believe animated slideshow dashboards can be useful in public displays where interaction is not possible and to prompt reflection.
-
-### Slideshow Dashboard Example
-
-<img src="docs/assets/dashboards/SlideshowDashboard.png" width="100%" />
-<p align="center">Example of an animated <strong>Slideshow Dashboard</strong>, which has 8&nbsp;seconds between each slide.</p>
-
----
-
-## 2.5 Embedded Mini Dashboards
+## 2.4 Embedded Mini Dashboards
 
 <!-- <img src="docs/assets/figures/type-mini.PNG" height="60px" /> -->
 
