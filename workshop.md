@@ -3,6 +3,8 @@ This workshop aims to help you with the design of dashboards using a set of [das
 
 If you have any specific questions, please get in touch with [Benjamin Bach](mailto:bbach@inf.ed.ac.uk). 
 
+Join our [Slack channel](https://join.slack.com/t/slack-4wm6695/shared_invite/zt-14x7ju7f5-IkAXD47iBTVZUBNCS4CI~g) to stay up to date about our monthly drop-in sessions and potential future courses. 
+
 ## Goals 
 
 **What this workshop will help you with:**
@@ -64,7 +66,3 @@ The workshop is limited to 12 people so that we can guarantee useful discussions
 
 To sign up, please complete this short questionnaire and tell us about yourself (2min): [https://forms.gle/dc6y9fEbzV2CAhqE6](https://forms.gle/dc6y9fEbzV2CAhqE6).
 
-
-## FAQ
-
-_<coming as questions arrive>_
