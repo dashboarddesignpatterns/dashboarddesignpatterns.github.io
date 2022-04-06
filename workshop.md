@@ -49,6 +49,7 @@ We have three general check-ins where we encourage everone to attend. In between
 * March 24 (Thu), 1-2pm: Drop-in session
 * March 25 (Fri), 1-2pm: Drop-in session
 * **March 25 (Fri) 3-4pm: Debrief**
+* March 29 (Tue), 1-2pm: Extra Drop-in session
 
 
 ### Asynchronous working
