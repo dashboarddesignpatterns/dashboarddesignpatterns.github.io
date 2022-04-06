@@ -17,10 +17,10 @@ hospitals, public health, learning analytics, urban analytics, personal analytic
 
 ## Why Design Patterns?
 
-![](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/patterncheatsheet.png)
-**[>> Download Pattern Cheatsheet (compact version)](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/patterncheatsheet.png)**
+![](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/Cheatsheet-compact.png)
+**[>> Download Pattern Cheatsheet (compact version)](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/Cheatsheet-compact.png)**
 
-**[>> Download Pattern Cheatsheet (slim version)](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/patterncheatsheet-slim.png)**
+**[>> Download Pattern Cheatsheet (slim version)](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/raw/main/docs/assets/Cheatsheet-vertical.png)**
 
 
 There are many high-level guidelines on dashboard design, including advice about visual perception, reducing information load,
