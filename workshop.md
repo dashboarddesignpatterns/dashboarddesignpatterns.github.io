@@ -2,7 +2,7 @@
 
 # Dashboard Design Workshop
 
-This website describes the general outline of the workshop as it was anounced. Detailed instructions for instructors are found [here](workshopoutline) 
+This website describes the general outline of the workshop as it was anounced. Detailed instructions for instructors are found [here](workshopoutline). 
 
 This workshop aims to help you with the design of dashboards using a set of [dashboard design patterns](patterns.html). The workshop will be held online and has synchronous and asynchronous parts. As part of our research, we aim to understand design principles for dashboard design and how our design patterns can support this design process through: ideation, reflection, and analysis.  
 
