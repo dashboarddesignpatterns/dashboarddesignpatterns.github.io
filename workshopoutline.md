@@ -34,11 +34,13 @@ Add interaction to, e.g., navigate between pages, obtain details on demand
   * Possible solutions to solve design tradeoffs
   * Ideas to discuss solutions
   * May not be complete, but aims to get ideas started
-  * May patterns can be combined, i.e., using one patterns does not preclude using another one.
+  * Many patterns can be combined, i.e., using one patterns does not preclude using another one.
+
 ## Activity 3: Data Information Patterns (green patterns) (~10min)
 * Briefly introduce the pattern in this type, i.e., say something high-level about them. 
 * Give everyone time to think through the patterns and which ones might be appropriate for their dashboard. 
 * Let them discuss their choices in groups. 
+
 ## Repeat activity 3
 In the following, I was running that same activity for each of the patterns in the order I list below. You may want to change the order (or remove some of them) depending on your time budget and the scope of the dashboards to create. Ideally, you want to stretch the whole workshop over more sessions, with a few pattern categories in each session (1-2) to give people time to think and design a little bit at home...
 1. Structure patterns (pink)
