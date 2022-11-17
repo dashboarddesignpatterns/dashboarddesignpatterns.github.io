@@ -1,9 +1,12 @@
 # Workshop outline
 
-[Download workshop slides here](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031871/Dashboard.Design.Workshop.2022.pdf)
-[Download the worksheets here](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031855/Dashboard.Workshop.Worksheets.1.pdf)
-[Download the cheatsheets with all pattern explanations here](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031879/Dashboard.Workshop.Cheatsheets.2.pdf)
 
+## Materials
+* [Workshop slides](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031871/Dashboard.Design.Workshop.2022.pdf)
+* [Worksheets](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031855/Dashboard.Workshop.Worksheets.1.pdf)
+* [Cheatsheets with all pattern explanations here](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031879/Dashboard.Workshop.Cheatsheets.2.pdf)
+
+# Activities
 
 ## Activity 1: Dashboard genres:
 * Show examples of dashboards and their genres
