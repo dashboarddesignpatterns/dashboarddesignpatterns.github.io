@@ -1,5 +1,9 @@
 # Workshop outline
 
+[Download workshop slides here](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031871/Dashboard.Design.Workshop.2022.pdf)
+[Download the worksheets here](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031855/Dashboard.Workshop.Worksheets.1.pdf)
+[Download the cheatsheets with all pattern explanations here](https://github.com/dashboarddesignpatterns/dashboarddesignpatterns.github.io/files/10031879/Dashboard.Workshop.Cheatsheets.2.pdf)
+
 
 ## Activity 1: Dashboard genres:
 * Show examples of dashboards and their genres
@@ -12,42 +16,38 @@
 ## Introduce design thinking
 * Explain double diamond (Slide 26)
 
-## Activity 2: What Am I Designing For? 
-* Have participants think about the following questions: 
-  * Who is my audience? What does the audience know about the data?
-  * What are the tasks they perform / decisions they make? What do they know about these tasks? During which steps of their workflows and during which situations do they need access to the dashboard? 
-  * What is the context & devices they engage with the dashboard? Is it a mobile, a 2nd screen, a wall-sized display, etc.? What else do they do when they consult the dashboard? How frequently do they consult the dashboard?  
-  * What other information do they need to fulfil their tasks / make these decisions?
-* Discuss these things in groups of 2-3 (depending on time).
 
-## Introduce design tradeoffs (slides 33-35):
-* Explain that some of these factors might be in your control, others not. In any case, you need to make decisions to optimize the information shown
-  * If you want to show more information than fits your screen, you can 
-    * Increase the number of pages of your dashboard, or
-    * Increase abstraction of information, e.g., less detailed visualization, or remove data, or aggregate data, or
-Add interaction to, e.g., navigate between pages, obtain details on demand
-  * more information on this [design tradeoff example](tradeoffs) 
+## Activity / Worksheet 1: Data, Use & Genres (15min)
+List and describe your data. What are the facets/dimensions in your data?
+Use: 
+* Describe your audience? What does the audience know about the data?
+* Describe the information, tasks and decisions your audience is performing? What do they know about these tasks? During which steps of their workflows and during which situations do they need access to the dashboard? 
+* What is the context & devices they engage with the dashboard? Is it a mobile, a 2nd screen, a wall-sized display, etc.? What else do they do when they consult the dashboard? How frequently do they consult the dashboard?  
+* Look at the Genre patterns. Pick 1-3 genres and describes how they might fit your scenario
+* Briefly report to other participants (e.g., in group).
 
-## Introduce design patterns: 
-* Introduce the idea of design patterns, if required (slide 37)
-* Overview types of patterns for dashboard. Explain they are
-  * Possible solutions to solve design tradeoffs
-  * Ideas to discuss solutions
-  * May not be complete, but aims to get ideas started
-  * Many patterns can be combined, i.e., using one patterns does not preclude using another one.
+## Activity / Worksheet 2: Structure patterns (10min)
+* Look at the structure pattern. 
+* Does your dashboard need (or can) have multiple separate pages? 
+* How would you group information meaningfully across these pages? What information must be shown together the same page (don't be afraid of duplicating information).
+* Pick one page to continue the workshop with. (you can repeat the following steps for each of your pages individually and make chances to your page design).
 
-## Activity 3: Data Information Patterns (green patterns) (~10min)
-* Briefly introduce the pattern in this type, i.e., say something high-level about them. 
-* Give everyone time to think through the patterns and which ones might be appropriate for their dashboard. 
-* Let them discuss their choices in groups. 
+## Activity / Worksheet 3: Data & Representation Patterns (15min)
+Look at the data and representation patterns. 
+* How does your data need to be abstracted?
+* How would you need to visualize that information?
 
-## Repeat activity 3
-In the following, I was running that same activity for each of the patterns in the order I list below. You may want to change the order (or remove some of them) depending on your time budget and the scope of the dashboards to create. Ideally, you want to stretch the whole workshop over more sessions, with a few pattern categories in each session (1-2) to give people time to think and design a little bit at home...
-1. Structure patterns (pink)
-1. Visual representation (red)
-1. Layouts (gray)
-1. Screenspace (purple)
-1. Interaction (yellow)
+## Activity / Worksheet 4: Layout (10min)
+Look at the layout patterns. Which layout would make sense for your visualizations? Why? Use this page to experiment with different layouts. Use post-its to move components around easier. 
+
+
+## Activity / Worksheet 5: Screenspace & Interactivity (10min)
+Look at the screenspace and interaction patterns. 
+* If you are running out of screenspace, how could you support navigation to the off-screen content, e.g., on other pages? 
+* Do you need interaction in your dashboard? What do you need interaction for? How can this interaction be supported in the UI?
+
+## Activity / Worksheet 6: Final Mockup (15min)
+Create a detailed mockup of your dashboard, using your choices and exploration from the other worksheets. Create two versions if you cannot decide at this time.
 
 
 
