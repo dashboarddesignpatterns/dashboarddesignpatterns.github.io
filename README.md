@@ -2,7 +2,7 @@
 
 # Dashboard Design Patterns
 
-This page lists **[design patterns for dashboard design](patterns.html)** collected to support the design and creative exploration of dashboard design. We run a dedicated **[workshop](workshop.html)** in March 2022 to help you applying and discussing design patterns in your work.
+This page lists **[design patterns for dashboard design](patterns.md)** collected to support the design and creative exploration of dashboard design. We run a dedicated **[workshop](workshop.md)** in March 2022 to help you applying and discussing design patterns in your work.
 
 ## What are Dashboards?
 Dashboards offer a curated lens through which people view large
@@ -38,11 +38,11 @@ of space).
 Such a number of choice can be overwhelming, so there is a timely need for guidance about effective dashboard design---especially as dashboards are increasingly being designed for a wider non-expert audience by a wide group of designers who may not have
 a background in visualization or interface design.
 
-Our **[design patterns for dashboard design](patterns.html)** on this website aims to support creativity and to streamline the dashboard design. 
+Our **[design patterns for dashboard design](patterns.md)** on this website aims to support creativity and to streamline the dashboard design. 
 
 ## Dashboard Design Workshop
 
-To help you learn about dashboard design and apply our patterns, we run an open online  **[workshop](workshop.html)** in March 2022. Follow the link to the workshop to learn more and sign up.
+To help you learn about dashboard design and apply our patterns, we run an open online  **[workshop](workshop.md)** in March 2022. Follow the link to the workshop to learn more and sign up.
 
 ##  Team
 
