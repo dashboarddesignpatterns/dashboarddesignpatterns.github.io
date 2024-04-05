@@ -4,11 +4,11 @@
 
 This page lists **[design patterns for dashboard design](patterns.md)** collected to support the design and creative exploration of dashboard design. We run a dedicated **[workshop](workshop.md)** in March 2022 to help you applying and discussing design patterns in your work.
 
-The patterns are coming out of our research, described in this publication
+The patterns are coming out of our research, described in our publication:
 
-[_Bach, Euan Freeman, Alfie Abdul-Rahman, Cagatay Turkay, Saiful Khan, Yulei Fan, Min Chen: 
+[Bach, Euan Freeman, Alfie Abdul-Rahman, Cagatay Turkay, Saiful Khan, Yulei Fan, Min Chen: 
 **Dashboard Design Patterns**, IEEE VIS Conference / Journal of Transactions on Visualization and Computer Graphics (TVCG), 2023. 
-_](https://arxiv.org/abs/2205.00757). 
+](https://arxiv.org/abs/2205.00757). 
 
 ## What are Dashboards?
 Dashboards offer a curated lens through which people view large
